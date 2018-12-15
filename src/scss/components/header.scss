@@ -1,0 +1,15 @@
+.header {
+    margin: 30px 60px 60px;
+
+    .title {
+        font-size: 42px;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        margin-left: 150px;
+        padding: 0 5px;
+        background: $color-light;
+        z-index: 1;
+    }
+}

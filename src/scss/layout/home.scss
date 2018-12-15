@@ -1,0 +1,45 @@
+.home {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .title {
+        margin-right: 25px;
+        text-align: right;
+        line-height: 1;
+
+        &__main {
+            font-size: 57px;
+            font-weight: 700;
+        }
+
+        &__subtitle {
+            font-size: 30px;
+        }
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+        font-size: 19px;
+        border-left: 1px solid $color-base-2;
+
+        &__item {
+            display: inline-block;
+            color: $color-base-1;
+            text-decoration: underline;
+            transition: color 0.2s;
+
+            &:hover {
+                color: $color-dark;
+            }
+        }
+    }
+}

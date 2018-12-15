@@ -1,0 +1,41 @@
+.nav {
+    position: relative;
+    display: flex;
+
+    &::after {
+        position: absolute;
+        top: 12px;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: $color-base-2;
+    }
+
+    &--home::after {
+        display: none;
+    }
+
+    &__items {
+        position: absolute;
+        left: 50%;
+        display: flex;
+        justify-content: space-between;
+        width: 375px;
+        padding: 0 10px;
+        font-weight: 600;
+        transform: translate(-50%, 0);
+        background: $color-light;
+        z-index: 1;
+
+    }
+
+    &__item {
+        transition: color 0.2s;
+
+        &.active,
+        &:hover {
+            text-decoration: underline;
+            color: $color-base-1;
+        }
+    }
+}

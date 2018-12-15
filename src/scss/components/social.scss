@@ -1,0 +1,17 @@
+.social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    &__icon {
+        margin: 0 20px;
+
+        & svg path {
+            transition: fill 0.2s;
+        }
+
+        &:hover svg path {
+            fill: $color-dark;
+        }
+    }
+}

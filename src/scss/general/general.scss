@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+// margin: auto auto 0 auto; - use if width not 100%;
+footer {
+  margin: auto 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@include reset;
+
+
