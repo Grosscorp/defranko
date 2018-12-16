@@ -11,5 +11,9 @@
         padding: 0 5px;
         background: $color-light;
         z-index: 1;
+
+        @include md {
+            margin-left: 0;
+        }
     }
 }

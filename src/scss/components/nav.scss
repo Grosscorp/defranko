@@ -27,6 +27,11 @@
         background: $color-light;
         z-index: 1;
 
+        @include xl {
+            left: auto;
+            right: 20px;
+            transform: translate(0, 0);
+        }
     }
 
     &__item {
