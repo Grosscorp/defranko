@@ -3,15 +3,19 @@
     margin: 0 60px 60px 60px;
 
     .photo {
+        position: relative;
         max-width: 540px;
         width: 100%;
         margin-bottom: -35px;
+
+        &__img {
+            width: 100%;
+        }
     }
 
     .caption {
         position: relative;
         top: -35px;
-        max-width: 480px;
         margin: 0 30px;
         padding: 25px 20px 40px 25px;
         background: $color-light;
@@ -32,8 +36,12 @@
     }
 
     .biography {
-        width: 100%;
-        margin: 35px 0 0 35px;
+        display: flex;
+
+        &__content {
+            width: 100%;
+            margin: 110px 0 0 35px;
+        }
 
         &__text {
             line-height: 26px;
@@ -46,9 +54,9 @@
     }
 
     .title {
-        position: relative;
-        left: -75px;
-        margin-bottom: 15px;
+        position: absolute;
+        top: 30px;
+        right: -140px;
         padding: 0 15px 10px 15px;
         background: $color-light;
 
