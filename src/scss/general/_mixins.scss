@@ -1,3 +1,67 @@
+// Media-query breakpoints
+// less then 576px
+$screen-xs: 575.98px;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm: 767.98px;
+
+// Small tablets (portrait view)
+$screen-md: 991.98px;
+
+// Tablets and small desktops
+$screen-lg: 1199.98px;
+
+// Laptops
+$screen-xl: 1365.98px;
+
+// example of use
+// .container {
+//     padding: 0 15px;
+//  576px window width and more
+//     @include sm {
+//         padding: 0 20px;
+//     }
+
+@mixin xs {
+    @media (max-width: #{$screen-xs-min}) {
+        @content;
+    }
+}
+
+// Small devices
+@mixin sm {
+    @media (max-width: #{$screen-sm}) {
+        @content;
+    }
+}
+
+// Medium devices
+@mixin md {
+    @media (max-width: #{$screen-md}) {
+        @content;
+    }
+}
+
+// Large devices
+@mixin lg {
+    @media (max-width: #{$screen-lg}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (max-width: #{$screen-xl}) {
+        @content;
+    }
+}
+
+// Custom devices
+@mixin rwd($screen) {
+    @media (min-width: $screen+'px') {
+        @content;
+    }
+}
+
 // Reset browser styles
 @mixin reset(){
     body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td{
@@ -45,60 +109,5 @@
     img{
         max-width: 100%;
         height: auto;
-    }
-}
-
-// Media-query breakpoints
-// less then 576px
-$screen-xs-min: 575.98px;
-
-// Small tablets and large smartphones (landscape view)
-$screen-sm-min: 767.98px;
-
-// Small tablets (portrait view)
-$screen-md-min: 991.98px;
-
-// Tablets and small desktops
-$screen-lg-min: 1199.98px;
-
-// exemple of use
-// .container {
-//     padding: 0 15px;
-//  576px window width and more
-//     @include sm {
-//         padding: 0 20px;
-//     }
-
-@mixin xs {
-    @media (max-width: #{$screen-xs-min}) {
-        @content;
-    }
-}
-
-// Small devices
-@mixin sm {
-    @media (max-width: #{$screen-sm-min}) {
-        @content;
-    }
-}
-
-// Medium devices
-@mixin md {
-    @media (max-width: #{$screen-md-min}) {
-        @content;
-    }
-}
-
-// Large devices
-@mixin lg {
-    @media (max-width: #{$screen-lg-min}) {
-        @content;
-    }
-}
-
-// Custom devices
-@mixin rwd($screen) {
-    @media (min-width: $screen+'px') {
-        @content;
     }
 }
