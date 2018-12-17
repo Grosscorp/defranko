@@ -11,20 +11,40 @@
 </head>
 <body>
 
+<!-- Home page main section -->
 <main class="home">
-  <div class="home__content">
-    <div class="title">
-      <h1 class="title__main">Vitaliy DeFranko</h1>
-      <h2 class="title__subtitle">психотерапевт - аналітик</h2>
-    </div>
-    <nav class="nav nav--home">
-      <a href="about.html" class="nav__item">про автора</a>
-      <a href="blog.html" class="nav__item">блог</a>
-      <a href="contact.html" class="nav__item">контакт</a>
+
+  <!-- Title only for home page -->
+  <div class="mobile-title">
+      <h3 class="mobile-title__main">Vitaliy DeFranko</h3>
+      <h3 class="mobile-title__subtitle">психотерапевт - аналітик</h3>
+  </div>
+
+  <!-- Mobile menu hamburger button -->
+  <button class="hamburger hamburger--squeeze" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+  </button>
+
+  <!-- Home page title -->
+  <div class="title">
+    <h1 class="title__main">Vitaliy DeFranko</h1>
+    <h2 class="title__subtitle">психотерапевт - аналітик</h2>
+  </div>
+
+  <!-- Home page navigation -->
+  <div class="home-nav">
+    <nav class="home-nav__items">
+      <a href="index.html" class="home-nav__item home-nav__item--hidden active">головна</a>
+      <a href="about.html" class="home-nav__item">про автора</a>
+      <a href="blog.html" class="home-nav__item">блог</a>
+      <a href="contact.html" class="home-nav__item">контакт</a>
     </nav>
   </div>
 </main>
 
+<!-- Footer -->
 <footer class="footer">
   <div class="social">
     <a href="#" class="social__link">

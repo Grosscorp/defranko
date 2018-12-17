@@ -11,10 +11,6 @@
         background: $color-base-2;
     }
 
-    &--home::after {
-        display: none;
-    }
-
     &__items {
         position: absolute;
         left: 50%;
