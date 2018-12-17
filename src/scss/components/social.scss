@@ -3,6 +3,10 @@
     justify-content: center;
     margin-bottom: 20px;
 
+    @include sm {
+        margin-bottom: 5px;
+    }
+
     &__icon {
         margin: 0 20px;
 
