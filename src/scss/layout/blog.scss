@@ -26,8 +26,8 @@
             margin: 0 25px 25px 0;
 
             @include sm {
-                margin: 0;
                 max-width: 100%;
+                margin: 0;
             }
         }
 
@@ -45,16 +45,22 @@
             margin-bottom: 15px;
 
             @include sm {
-                display: none;
+                font-size: 20px;
             }
 
-            // Mobile title for layout purpose
-            &--mobile {
+            // Hide main title on small screens
+            &.sm-hide {
+                @include sm {
+                    display: none;
+                }
+            }
+
+            // Show second title when post has photo
+            &.sm-show {
                 display: none;
 
                 @include sm {
                     display: block;
-                    font-size: 20px;
                 }
             }
         }

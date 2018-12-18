@@ -1,18 +1,36 @@
 .post {
     margin: 0 215px 60px 215px;
 
+    @include xl {
+        margin: 0 60px 60px 60px;
+    }
+
+    @include sm {
+        margin: 85px 10px 40px 10px;
+    }
+
+    // Change layout when post has photo
     &--with-photo {
         margin: 0 260px 60px 60px;
     }
 
     &__item {
         display: flex;
+
+        @include sm {
+            flex-direction: column;
+        }
     }
 
     &__picture {
         margin-right: 25px;
         max-width: 345px;
         width: 100%;
+
+        @include sm {
+            max-width: 100%;
+            margin: 0;
+        }
     }
 
     &__img {
@@ -25,18 +43,47 @@
 
     &__content {
         margin-bottom: 40px;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
         border-bottom: 1px solid $color-base-2;
+
+        @include sm {
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+        }
     }
 
     &__title {
         font-size: 25px;
         font-weight: 600;
         margin-bottom: 40px;
+
+        @include sm {
+            font-size: 20px;
+        }
+
+        // Hide main title on small screens
+        &.sm-hide {
+            @include sm {
+                display: none;
+            }
+        }
+
+        // Show second title when post has photo
+        &.sm-show {
+            display: none;
+
+            @include sm {
+                display: block;
+            }
+        }
     }
 
     &__text {
         margin-bottom: 25px;
         line-height: 26px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
