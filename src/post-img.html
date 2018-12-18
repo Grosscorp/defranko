@@ -20,6 +20,7 @@
           <span class="hamburger-inner"></span>
         </span>
   </button>
+  <!-- Mobile menu hamburger button -->
 
   <!-- Logo -->
   <a href="index.html" class="logo-link">
@@ -28,6 +29,7 @@
       <div class="logo__subtitle">психотерапевт - аналітик</div>
     </div>
   </a>
+  <!-- Logo -->
 
   <!-- Navigation -->
   <div class="nav">
@@ -38,7 +40,10 @@
       <a href="contact.html" class="nav__item">контакт</a>
     </nav>
   </div>
+  <!-- Navigation -->
+
 </header>
+<!-- Header -->
 
 <!-- Post -->
 <!--Use post--with-photo class when blog post has photo-->
@@ -51,15 +56,20 @@
       <span class="back__text">Назад до списку статей</span>
     </a>
   </div>
+  <!-- Back to the posts end -->
 
   <!-- Post item -->
   <article class="post__item">
 
     <!-- Add this additional heading only when post has image -->
     <h2 class="post__title sm-show">Дійсно, ніхто не відкидає, не зневажає, не уникає насолод тільки через те, що це насолоди, але лише через те.</h2>
+    <!-- Additional title end -->
+
+    <!-- Post picture -->
     <div class="post__picture">
       <img src="<%= require('./img/content/blog-image.jpg') %>" alt="Природа" class="post__img">
     </div>
+    <!-- Post picture end -->
 
     <!-- Post container -->
     <div class="post__container">
@@ -75,12 +85,12 @@
           Так само як немає нікого, хто полюбивши, вважав за краще і зажадав би саме страждання тільки за те, що це страждання, а не тому, що інший раз виникають такі обставини, коли страждання і біль приносять якесь і чималу насолоду. Якщо скористатися найпростішим прикладом, то хто з нас став би займатися якими б то не було тяжкими фізичними вправами, якщо б це не приносило з собою якоїсь користі?
         </p>
       </div>
+      <!-- Post text end -->
 
       <!-- Share buttons -->
       <div class="share">
         <p class="share__text">Сподобався цей матеріл? - Рекомендуйте друзям.</p>
         <!--TODO: Change share buttons to the appropriate-->
-        <!-- AddToAny BEGIN -->
         <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
           <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
           <a class="a2a_button_facebook"></a>
@@ -92,11 +102,17 @@
           <a class="a2a_button_pocket"></a>
         </div>
         <script async src="https://static.addtoany.com/menu/page.js"></script>
-        <!-- AddToAny END -->
       </div>
+      <!-- Share buttons end -->
+
     </div>
+    <!-- Post container end -->
+
   </article>
+  <!-- Post item end -->
+
 </main>
+<!-- Post end -->
 
 <!-- Footer -->
 <footer class="footer">
@@ -142,7 +158,8 @@
     Усі права застережено - defrankco.com 2018
   </p>
 </footer>
-<!--TODO:If needed enter path to the scripts like(<script src="static/js/main.js"></script>)-->
+<!-- Footer end -->
+<!--If needed enter path to the scripts like(<script src="static/js/main.js"></script>)-->
 
 </body>
 </html>
