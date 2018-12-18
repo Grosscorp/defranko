@@ -35,7 +35,7 @@ module.exports = (env, options) => {
       contentBase: './dist',
       open: true,
       compress: true,
-      port: 9000,
+      port: 9001,
       overlay: true,
       stats: 'minimal'
     },
