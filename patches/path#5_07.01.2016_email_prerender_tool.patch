@@ -1,0 +1,67 @@
+Index: app/Http/Controllers/Dev/ToolsController.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/Http/Controllers/Dev/ToolsController.php	(revision )
++++ app/Http/Controllers/Dev/ToolsController.php	(revision )
+@@ -0,0 +1,31 @@
++<?php
++namespace App\Http\Controllers\Dev;
++
++use App\Http\Requests;
++use App\Http\Controllers\Controller;
++
++/**
++ * Class ToolsController
++ *
++ * @package App\Http\Controllers\Dev
++ */
++class ToolsController extends Controller
++{
++	/**
++	 * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
++	 */
++	public function emailRender()
++	{
++		$faker = \Faker\Factory::create();
++
++		return view('emails/NewSubscription/SendEmailToAdmin', [
++			'data' => [
++				'first_name' => $faker->firstName,
++				'last_name' => $faker->lastName,
++				'phone' => $faker->phoneNumber,
++				'email' => $faker->email,
++				'message' => $faker->text()
++			]
++		]);
++	}
++}
+Index: app/Http/routes.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/Http/routes.php	(revision 992eae368ad9866cdc06b996747263c8888a86d8)
++++ app/Http/routes.php	(revision )
+@@ -38,6 +38,20 @@
+ }
+ );
+ 
++/*
++|--------------------------------------------------------------------------
++| DEV TOOLS
++|--------------------------------------------------------------------------
++*/
++Route::group(
++	[
++		'prefix'     => 'dev',
++		'middleware' => ['auth', 'dashboard']
++	], function () {
++	Route::get('emailRender', 'Dev\ToolsController@emailRender');
++});
++
++
+ 
+ //TODO Divide routes to /api/dashboard/messages/ and /api/public/messages and /api/profile/messages. Same thing with controller structure
+ 

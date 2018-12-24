@@ -1,0 +1,23 @@
+// Mixins
+// --------------------------------------------------
+
+// Utilities
+@import 'mixins/other';
+
+@import "mixins/background-cover";
+@import "mixins/media";
+@import "mixins/f-icons";
+@import "mixins/image";
+@import 'mixins/badges';
+@import 'mixins/borders';
+
+@import 'mixins/dropdowns';
+@import 'mixins/tooltip';
+@import 'mixins/img-gallery';
+@import 'mixins/gradient-triangle';
+
+
+@import 'mixins/grid';
+@import 'mixins/grid-framework';
+
+@import 'mixins/responsive-visibility';

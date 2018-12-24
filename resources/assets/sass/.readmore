@@ -1,0 +1,33 @@
+Box
+margin, padding, display, etc.
+
+Border & Background
+order, border-radius, background-color, etc.
+
+Text
+color, font-size, text-transform, etc.
+
+Other stuff
+animations, transforms, etc.
+
+
+// Layouts
+// Prefix "l-"
+.l-default {}
+
+// Modules
+// Prefix "m-"
+.m-accordion {}
+
+// Child element of accordion
+// Seperator: "__"
+.m-accordion__trigger {}
+
+
+// Modifier of accordion
+// Seperator: "--"
+.m-accordion--plain {}
+
+
+// States
+// Mostly with prefix like "is-"

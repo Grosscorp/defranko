@@ -1,0 +1,43 @@
+@mixin selected($size: 8px, $color: white) {
+	background-image:
+	linear-gradient($color, $color),
+	linear-gradient($color, $color),
+	linear-gradient($color, $color),
+	linear-gradient($color, $color),
+	linear-gradient($color, $color),
+	linear-gradient($color, $color),
+	linear-gradient($color, $color),
+	linear-gradient($color, $color),
+	linear-gradient(rgba($color, 0.5), rgba($color, 0.5)),
+	linear-gradient(rgba($color, 0.5), rgba($color, 0.5)),
+	linear-gradient(rgba($color, 0.5), rgba($color, 0.5)),
+	linear-gradient(rgba($color, 0.5), rgba($color, 0.5));
+	background-position:
+	top left,
+	top center,
+	top right,
+	right center,
+	bottom right,
+	bottom center,
+	bottom left,
+	left center,
+	center top ($size / 2),
+	center right ($size / 2),
+	center bottom ($size / 2),
+	center left ($size / 2);
+	background-size:
+	$size $size,
+	$size $size,
+	$size $size,
+	$size $size,
+	$size $size,
+	$size $size,
+	$size $size,
+	$size $size,
+	100% 1px,
+	1px 100%,
+	100% 1px,
+	1px 100%;
+	background-repeat: no-repeat;
+	padding: ($size / 2);
+}

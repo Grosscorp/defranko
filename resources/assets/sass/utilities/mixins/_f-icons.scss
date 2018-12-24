@@ -1,0 +1,53 @@
+@mixin f-icons ($font-size: 14px, $line-height: 1, $margin: 0, $width: 1em) {
+	&:before {
+		margin: $margin;
+		width: $width;
+
+		font-size: $font-size;
+		line-height: $line-height;
+	}
+}
+
+
+@mixin f-iconsAfter ($content: "", $font-size: 14px, $line-height: 1, $margin: "", $width: 1em) {
+	&:after {
+		content: $content;
+		font-family: "fontello";
+		font-style: normal;
+		font-weight: normal;
+		font-size: $font-size;
+
+		display: inline-block;
+		text-decoration: inherit;
+		width: $width;
+		text-align: center;
+		font-variant: normal;
+		text-transform: none;
+		line-height: $line-height;
+		margin: $margin;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+
+@mixin f-iconsBefore ($content: "", $font-size: 14px, $line-height: 1, $margin: 0, $width: 1em) {
+	&:before {
+		content: $content;
+		font-family: "fontello";
+		font-style: normal;
+		font-weight: normal;
+		font-size: $font-size;
+
+		display: inline-block;
+		text-decoration: inherit;
+		width: $width;
+		text-align: center;
+		font-variant: normal;
+		text-transform: none;
+		line-height: $line-height;
+		margin: $margin;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}

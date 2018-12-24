@@ -1,0 +1,14 @@
+/vendor
+/node_modules
+.env
+.idea/*
+*.sh
+_ide_helper.php
+/public/assets
+.DS_Store
+.sass-cache
+.phpstorm.meta.php
+
+public/assets/*
+!/public/assets/.htaccess
+composer.lock

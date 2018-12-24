@@ -1,0 +1,53 @@
+@mixin img-gallery () {
+	overflow: hidden;
+	cursor: default;
+	background-color: #f0f0f0;
+	position: relative;
+	display: block;
+
+	@include backface-visibility(hidden);
+	@include perspective(1000);
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0,0,0, 0.5);
+
+		@include transition(opacity 0.35s);
+	}
+
+	> img {
+		width: 100%;
+		opacity: 1;
+		//@include transition(opacity 0.35s);
+	}
+
+	.item-info {
+		@include transform(translate3d(0, 20%, 0));
+		@include transition(transform 0.35s, color 0.35s);
+	}
+
+	&:active,
+	&:hover {
+		.item-info {
+			@include transform(translate3d(0, 0, 0));
+		}
+
+		&:after {
+			opacity: 1;
+		}
+
+		//> img {
+		//	opacity: 0.6;
+		//}
+	}
+}

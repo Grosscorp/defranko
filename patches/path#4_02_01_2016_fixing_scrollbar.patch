@@ -1,0 +1,2558 @@
+Index: public/bower_components/angular-perfect-scrollbar/.bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/angular-perfect-scrollbar/.bower.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/angular-perfect-scrollbar/.bower.json	(revision )
+@@ -32,6 +32,5 @@
+   },
+   "_source": "git://github.com/itsdrewmiller/angular-perfect-scrollbar.git",
+   "_target": "~0.0.4",
+-  "_originalSource": "angular-perfect-scrollbar",
+-  "_direct": true
++  "_originalSource": "angular-perfect-scrollbar"
+ }
+\ No newline at end of file
+Index: public/bower_components/jquery/src/css.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/queue.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/queue.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/queue.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/MIT-LICENSE.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/MIT-LICENSE.txt	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/MIT-LICENSE.txt	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/concat.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/concat.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/concat.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/perfect-scrollbar.jquery.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/perfect-scrollbar.jquery.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/perfect-scrollbar.jquery.json	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/angular-perfect-scrollbar/examples/loremipsum.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/angular-perfect-scrollbar/examples/loremipsum.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/angular-perfect-scrollbar/examples/loremipsum.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/ajax/var/nonce.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/ajax/var/nonce.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/ajax/var/nonce.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/manipulation/support.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/manipulation/support.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/manipulation/support.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/options-wheelPropagation.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/options-wheelPropagation.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/options-wheelPropagation.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/attributes/prop.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/attributes/prop.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/attributes/prop.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/sizzle/dist/sizzle.min.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/sizzle/dist/sizzle.min.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/sizzle/dist/sizzle.min.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/removable-list-element.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/removable-list-element.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/removable-list-element.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/sizzle/dist/sizzle.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/sizzle/dist/sizzle.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/sizzle/dist/sizzle.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/var/rmargin.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/var/rmargin.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/var/rmargin.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/table-content.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/table-content.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/table-content.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/package.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/package.json	(revision )
+@@ -1,0 +1,0 @@
+Index: resources/assets/sass/modules/dashboard/_m-sidebar.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- resources/assets/sass/modules/dashboard/_m-sidebar.scss	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ resources/assets/sass/modules/dashboard/_m-sidebar.scss	(revision )
+@@ -1,3 +1,10 @@
+ .page-sidebar .sidebar-menu .menu-items>li>a>.title {
+ 	width: 75%!important;
+-}
+\ No newline at end of file
++}
++
++.page-sidebar .sidebar-menu.scrollbar {
++	height: calc(100% - 50px);
++	overflow-y: hidden;
++	overflow-x: hidden;
++	position: relative;
++}
+\ No newline at end of file
+Index: public/bower_components/jquery/src/data/var/data_priv.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/data/var/data_priv.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/data/var/data_priv.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/iframe.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/iframe.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/iframe.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/exports/global.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/exports/global.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/exports/global.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/options-minScrollbarLength.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/options-minScrollbarLength.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/options-minScrollbarLength.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/ajax/parseXML.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/ajax/parseXML.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/ajax/parseXML.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/data.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/data.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/data.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/scrollbars-on-the-opposite-side.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/scrollbars-on-the-opposite-side.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/scrollbars-on-the-opposite-side.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/attributes/support.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/attributes/support.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/attributes/support.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/dist/jquery.min.map
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/dist/jquery.min.map	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/dist/jquery.min.map	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/core/var/rsingleTag.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/core/var/rsingleTag.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/core/var/rsingleTag.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/deprecated.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/deprecated.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/deprecated.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/dimensions.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/dimensions.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/dimensions.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/event.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/event.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/event.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/bower.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/bower.json	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/src/perfect-scrollbar.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/src/perfect-scrollbar.scss	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/src/perfect-scrollbar.scss	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/offset.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/offset.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/offset.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/selector-sizzle.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/selector-sizzle.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/selector-sizzle.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/options-default.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/options-default.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/options-default.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/arr.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/arr.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/arr.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/css/dashboard.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/css/dashboard.css	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/css/dashboard.css	(revision )
+@@ -120,7 +120,8 @@
+   text-transform: none; }
+ 
+ button,
+-html input[type="button"], input[type="reset"],
++html input[type="button"],
++input[type="reset"],
+ input[type="submit"] {
+   -webkit-appearance: button;
+   cursor: pointer; }
+@@ -1071,8 +1072,7 @@
+ a {
+   color: #484848;
+   text-decoration: none; }
+-  a:hover,
+-  a:focus {
++  a:hover, a:focus {
+     color: #222222;
+     text-decoration: none; }
+   a:focus {
+@@ -1126,8 +1126,7 @@
+   clip: rect(0, 0, 0, 0);
+   border: 0; }
+ 
+-.sr-only-focusable:active,
+-.sr-only-focusable:focus {
++.sr-only-focusable:active, .sr-only-focusable:focus {
+   position: static;
+   width: auto;
+   height: auto;
+@@ -1365,8 +1364,7 @@
+ dd {
+   margin-left: 0; }
+ 
+-.dl-horizontal dd:before,
+-.dl-horizontal dd:after {
++.dl-horizontal dd:before, .dl-horizontal dd:after {
+   content: " ";
+   display: table; }
+ 
+@@ -1496,8 +1494,7 @@
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px; }
+-  .container:before,
+-  .container:after {
++  .container:before, .container:after {
+     content: " ";
+     display: table; }
+   .container:after {
+@@ -1517,8 +1514,7 @@
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px; }
+-  .container-fluid:before,
+-  .container-fluid:after {
++  .container-fluid:before, .container-fluid:after {
+     content: " ";
+     display: table; }
+   .container-fluid:after {
+@@ -1527,8 +1523,7 @@
+ .row {
+   margin-left: -15px;
+   margin-right: -15px; }
+-  .row:before,
+-  .row:after {
++  .row:before, .row:after {
+     content: " ";
+     display: table; }
+   .row:after {
+@@ -2759,8 +2754,7 @@
+     color: #999; }
+   .form-control::-webkit-input-placeholder {
+     color: #999; }
+-  .form-control[disabled],
+-  .form-control[readonly],
++  .form-control[disabled], .form-control[readonly],
+   fieldset[disabled] .form-control {
+     background-color: #eeeeee;
+     opacity: 1; }
+@@ -2780,8 +2774,7 @@
+   input[type="datetime-local"],
+   input[type="month"] {
+     line-height: 34px; }
+-    input[type="date"].input-sm,
+-    .input-group-sm > input[type="date"].form-control,
++    input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control,
+     .input-group-sm > input[type="date"].input-group-addon,
+     .input-group-sm > .input-group-btn > input[type="date"].btn,
+     .input-group-sm input[type="date"],
+@@ -2789,20 +2782,22 @@
+     .input-group-sm > input[type="time"].form-control,
+     .input-group-sm > input[type="time"].input-group-addon,
+     .input-group-sm > .input-group-btn > input[type="time"].btn,
+-    .input-group-sm input[type="time"],
++    .input-group-sm
++    input[type="time"],
+     input[type="datetime-local"].input-sm,
+     .input-group-sm > input[type="datetime-local"].form-control,
+     .input-group-sm > input[type="datetime-local"].input-group-addon,
+     .input-group-sm > .input-group-btn > input[type="datetime-local"].btn,
+-    .input-group-sm input[type="datetime-local"],
++    .input-group-sm
++    input[type="datetime-local"],
+     input[type="month"].input-sm,
+     .input-group-sm > input[type="month"].form-control,
+     .input-group-sm > input[type="month"].input-group-addon,
+     .input-group-sm > .input-group-btn > input[type="month"].btn,
+-    .input-group-sm input[type="month"] {
++    .input-group-sm
++    input[type="month"] {
+       line-height: 30px; }
+-    input[type="date"].input-lg,
+-    .input-group-lg > input[type="date"].form-control,
++    input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control,
+     .input-group-lg > input[type="date"].input-group-addon,
+     .input-group-lg > .input-group-btn > input[type="date"].btn,
+     .input-group-lg input[type="date"],
+@@ -2810,17 +2805,20 @@
+     .input-group-lg > input[type="time"].form-control,
+     .input-group-lg > input[type="time"].input-group-addon,
+     .input-group-lg > .input-group-btn > input[type="time"].btn,
+-    .input-group-lg input[type="time"],
++    .input-group-lg
++    input[type="time"],
+     input[type="datetime-local"].input-lg,
+     .input-group-lg > input[type="datetime-local"].form-control,
+     .input-group-lg > input[type="datetime-local"].input-group-addon,
+     .input-group-lg > .input-group-btn > input[type="datetime-local"].btn,
+-    .input-group-lg input[type="datetime-local"],
++    .input-group-lg
++    input[type="datetime-local"],
+     input[type="month"].input-lg,
+     .input-group-lg > input[type="month"].form-control,
+     .input-group-lg > input[type="month"].input-group-addon,
+     .input-group-lg > .input-group-btn > input[type="month"].btn,
+-    .input-group-lg input[type="month"] {
++    .input-group-lg
++    input[type="month"] {
+       line-height: 46px; } }
+ 
+ .form-group {
+@@ -2867,24 +2865,26 @@
+   margin-top: 0;
+   margin-left: 10px; }
+ 
+-input[type="radio"][disabled],
+-input[type="radio"].disabled,
++input[type="radio"][disabled], input[type="radio"].disabled,
+ fieldset[disabled] input[type="radio"],
+ input[type="checkbox"][disabled],
+ input[type="checkbox"].disabled,
+-fieldset[disabled] input[type="checkbox"] {
++fieldset[disabled]
++input[type="checkbox"] {
+   cursor: not-allowed; }
+ 
+ .radio-inline.disabled,
+ fieldset[disabled] .radio-inline,
+ .checkbox-inline.disabled,
+-fieldset[disabled] .checkbox-inline {
++fieldset[disabled]
++.checkbox-inline {
+   cursor: not-allowed; }
+ 
+ .radio.disabled label,
+ fieldset[disabled] .radio label,
+ .checkbox.disabled label,
+-fieldset[disabled] .checkbox label {
++fieldset[disabled]
++.checkbox label {
+   cursor: not-allowed; }
+ 
+ .form-control-static {
+@@ -2892,11 +2892,9 @@
+   padding-bottom: 7px;
+   margin-bottom: 0;
+   min-height: 34px; }
+-  .form-control-static.input-lg,
+-  .input-group-lg > .form-control-static.form-control,
++  .form-control-static.input-lg, .input-group-lg > .form-control-static.form-control,
+   .input-group-lg > .form-control-static.input-group-addon,
+-  .input-group-lg > .input-group-btn > .form-control-static.btn,
+-  .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
++  .input-group-lg > .input-group-btn > .form-control-static.btn, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
+   .input-group-sm > .form-control-static.input-group-addon,
+   .input-group-sm > .input-group-btn > .form-control-static.btn {
+     padding-left: 0;
+@@ -2917,11 +2915,11 @@
+   height: 30px;
+   line-height: 30px; }
+ 
+-textarea.input-sm,
+-.input-group-sm > textarea.form-control,
++textarea.input-sm, .input-group-sm > textarea.form-control,
+ .input-group-sm > textarea.input-group-addon,
+ .input-group-sm > .input-group-btn > textarea.btn,
+-select[multiple].input-sm, .input-group-sm > select[multiple].form-control,
++select[multiple].input-sm,
++.input-group-sm > select[multiple].form-control,
+ .input-group-sm > select[multiple].input-group-addon,
+ .input-group-sm > .input-group-btn > select[multiple].btn {
+   height: auto; }
+@@ -2963,11 +2961,11 @@
+   height: 46px;
+   line-height: 46px; }
+ 
+-textarea.input-lg,
+-.input-group-lg > textarea.form-control,
++textarea.input-lg, .input-group-lg > textarea.form-control,
+ .input-group-lg > textarea.input-group-addon,
+ .input-group-lg > .input-group-btn > textarea.btn,
+-select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
++select[multiple].input-lg,
++.input-group-lg > select[multiple].form-control,
+ .input-group-lg > select[multiple].input-group-addon,
+ .input-group-lg > .input-group-btn > select[multiple].btn {
+   height: auto; }
+@@ -3178,8 +3176,7 @@
+ .form-horizontal .form-group {
+   margin-left: -15px;
+   margin-right: -15px; }
+-  .form-horizontal .form-group:before,
+-  .form-horizontal .form-group:after {
++  .form-horizontal .form-group:before, .form-horizontal .form-group:after {
+     content: " ";
+     display: table; }
+   .form-horizontal .form-group:after {
+@@ -3221,28 +3218,19 @@
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none; }
+-  .btn:focus,
+-  .btn.focus,
+-  .btn:active:focus,
+-  .btn:active.focus,
+-  .btn.active:focus,
+-  .btn.active.focus {
++  .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+     outline: thin dotted;
+     outline: 5px auto -webkit-focus-ring-color;
+     outline-offset: -2px; }
+-  .btn:hover,
+-  .btn:focus,
+-  .btn.focus {
++  .btn:hover, .btn:focus, .btn.focus {
+     color: #333;
+     text-decoration: none; }
+-  .btn:active,
+-  .btn.active {
++  .btn:active, .btn.active {
+     outline: 0;
+     background-image: none;
+     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+-  .btn.disabled,
+-  .btn[disabled],
++  .btn.disabled, .btn[disabled],
+   fieldset[disabled] .btn {
+     cursor: not-allowed;
+     pointer-events: none;
+@@ -3255,31 +3243,15 @@
+   color: #333;
+   background-color: #fff;
+   border-color: #ccc; }
+-  .btn-default:hover,
+-  .btn-default:focus,
+-  .btn-default.focus,
+-  .btn-default:active,
+-  .btn-default.active,
++  .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active,
+   .open > .btn-default.dropdown-toggle {
+     color: #333;
+     background-color: #e6e6e6;
+     border-color: #adadad; }
+-  .btn-default:active,
+-  .btn-default.active,
++  .btn-default:active, .btn-default.active,
+   .open > .btn-default.dropdown-toggle {
+     background-image: none; }
+-  .btn-default.disabled,
+-  .btn-default.disabled:hover,
+-  .btn-default.disabled:focus,
+-  .btn-default.disabled.focus,
+-  .btn-default.disabled:active,
+-  .btn-default.disabled.active,
+-  .btn-default[disabled],
+-  .btn-default[disabled]:hover,
+-  .btn-default[disabled]:focus,
+-  .btn-default[disabled].focus,
+-  .btn-default[disabled]:active,
+-  .btn-default[disabled].active,
++  .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active,
+   fieldset[disabled] .btn-default,
+   fieldset[disabled] .btn-default:hover,
+   fieldset[disabled] .btn-default:focus,
+@@ -3296,31 +3268,15 @@
+   color: #fff;
+   background-color: #337ab7;
+   border-color: #2e6da4; }
+-  .btn-primary:hover,
+-  .btn-primary:focus,
+-  .btn-primary.focus,
+-  .btn-primary:active,
+-  .btn-primary.active,
++  .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active,
+   .open > .btn-primary.dropdown-toggle {
+     color: #fff;
+     background-color: #286090;
+     border-color: #204d74; }
+-  .btn-primary:active,
+-  .btn-primary.active,
++  .btn-primary:active, .btn-primary.active,
+   .open > .btn-primary.dropdown-toggle {
+     background-image: none; }
+-  .btn-primary.disabled,
+-  .btn-primary.disabled:hover,
+-  .btn-primary.disabled:focus,
+-  .btn-primary.disabled.focus,
+-  .btn-primary.disabled:active,
+-  .btn-primary.disabled.active,
+-  .btn-primary[disabled],
+-  .btn-primary[disabled]:hover,
+-  .btn-primary[disabled]:focus,
+-  .btn-primary[disabled].focus,
+-  .btn-primary[disabled]:active,
+-  .btn-primary[disabled].active,
++  .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active,
+   fieldset[disabled] .btn-primary,
+   fieldset[disabled] .btn-primary:hover,
+   fieldset[disabled] .btn-primary:focus,
+@@ -3337,31 +3293,15 @@
+   color: #fff;
+   background-color: #5cb85c;
+   border-color: #4cae4c; }
+-  .btn-success:hover,
+-  .btn-success:focus,
+-  .btn-success.focus,
+-  .btn-success:active,
+-  .btn-success.active,
++  .btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active,
+   .open > .btn-success.dropdown-toggle {
+     color: #fff;
+     background-color: #449d44;
+     border-color: #398439; }
+-  .btn-success:active,
+-  .btn-success.active,
++  .btn-success:active, .btn-success.active,
+   .open > .btn-success.dropdown-toggle {
+     background-image: none; }
+-  .btn-success.disabled,
+-  .btn-success.disabled:hover,
+-  .btn-success.disabled:focus,
+-  .btn-success.disabled.focus,
+-  .btn-success.disabled:active,
+-  .btn-success.disabled.active,
+-  .btn-success[disabled],
+-  .btn-success[disabled]:hover,
+-  .btn-success[disabled]:focus,
+-  .btn-success[disabled].focus,
+-  .btn-success[disabled]:active,
+-  .btn-success[disabled].active,
++  .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled].active,
+   fieldset[disabled] .btn-success,
+   fieldset[disabled] .btn-success:hover,
+   fieldset[disabled] .btn-success:focus,
+@@ -3378,31 +3318,15 @@
+   color: #fff;
+   background-color: #5bc0de;
+   border-color: #46b8da; }
+-  .btn-info:hover,
+-  .btn-info:focus,
+-  .btn-info.focus,
+-  .btn-info:active,
+-  .btn-info.active,
++  .btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active,
+   .open > .btn-info.dropdown-toggle {
+     color: #fff;
+     background-color: #31b0d5;
+     border-color: #269abc; }
+-  .btn-info:active,
+-  .btn-info.active,
++  .btn-info:active, .btn-info.active,
+   .open > .btn-info.dropdown-toggle {
+     background-image: none; }
+-  .btn-info.disabled,
+-  .btn-info.disabled:hover,
+-  .btn-info.disabled:focus,
+-  .btn-info.disabled.focus,
+-  .btn-info.disabled:active,
+-  .btn-info.disabled.active,
+-  .btn-info[disabled],
+-  .btn-info[disabled]:hover,
+-  .btn-info[disabled]:focus,
+-  .btn-info[disabled].focus,
+-  .btn-info[disabled]:active,
+-  .btn-info[disabled].active,
++  .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled].active,
+   fieldset[disabled] .btn-info,
+   fieldset[disabled] .btn-info:hover,
+   fieldset[disabled] .btn-info:focus,
+@@ -3419,31 +3343,15 @@
+   color: #fff;
+   background-color: #f0ad4e;
+   border-color: #eea236; }
+-  .btn-warning:hover,
+-  .btn-warning:focus,
+-  .btn-warning.focus,
+-  .btn-warning:active,
+-  .btn-warning.active,
++  .btn-warning:hover, .btn-warning:focus, .btn-warning.focus, .btn-warning:active, .btn-warning.active,
+   .open > .btn-warning.dropdown-toggle {
+     color: #fff;
+     background-color: #ec971f;
+     border-color: #d58512; }
+-  .btn-warning:active,
+-  .btn-warning.active,
++  .btn-warning:active, .btn-warning.active,
+   .open > .btn-warning.dropdown-toggle {
+     background-image: none; }
+-  .btn-warning.disabled,
+-  .btn-warning.disabled:hover,
+-  .btn-warning.disabled:focus,
+-  .btn-warning.disabled.focus,
+-  .btn-warning.disabled:active,
+-  .btn-warning.disabled.active,
+-  .btn-warning[disabled],
+-  .btn-warning[disabled]:hover,
+-  .btn-warning[disabled]:focus,
+-  .btn-warning[disabled].focus,
+-  .btn-warning[disabled]:active,
+-  .btn-warning[disabled].active,
++  .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled].active,
+   fieldset[disabled] .btn-warning,
+   fieldset[disabled] .btn-warning:hover,
+   fieldset[disabled] .btn-warning:focus,
+@@ -3460,31 +3368,15 @@
+   color: #fff;
+   background-color: #d9534f;
+   border-color: #d43f3a; }
+-  .btn-danger:hover,
+-  .btn-danger:focus,
+-  .btn-danger.focus,
+-  .btn-danger:active,
+-  .btn-danger.active,
++  .btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active,
+   .open > .btn-danger.dropdown-toggle {
+     color: #fff;
+     background-color: #c9302c;
+     border-color: #ac2925; }
+-  .btn-danger:active,
+-  .btn-danger.active,
++  .btn-danger:active, .btn-danger.active,
+   .open > .btn-danger.dropdown-toggle {
+     background-image: none; }
+-  .btn-danger.disabled,
+-  .btn-danger.disabled:hover,
+-  .btn-danger.disabled:focus,
+-  .btn-danger.disabled.focus,
+-  .btn-danger.disabled:active,
+-  .btn-danger.disabled.active,
+-  .btn-danger[disabled],
+-  .btn-danger[disabled]:hover,
+-  .btn-danger[disabled]:focus,
+-  .btn-danger[disabled].focus,
+-  .btn-danger[disabled]:active,
+-  .btn-danger[disabled].active,
++  .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active,
+   fieldset[disabled] .btn-danger,
+   fieldset[disabled] .btn-danger:hover,
+   fieldset[disabled] .btn-danger:focus,
+@@ -3501,26 +3393,18 @@
+   color: #484848;
+   font-weight: normal;
+   border-radius: 0; }
+-  .btn-link,
+-  .btn-link:active,
+-  .btn-link.active,
+-  .btn-link[disabled],
++  .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled],
+   fieldset[disabled] .btn-link {
+     background-color: transparent;
+     -webkit-box-shadow: none;
+     box-shadow: none; }
+-  .btn-link,
+-  .btn-link:hover,
+-  .btn-link:focus,
+-  .btn-link:active {
++  .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+     border-color: transparent; }
+-  .btn-link:hover,
+-  .btn-link:focus {
++  .btn-link:hover, .btn-link:focus {
+     color: #222222;
+     text-decoration: none;
+     background-color: transparent; }
+-  .btn-link[disabled]:hover,
+-  .btn-link[disabled]:focus,
++  .btn-link[disabled]:hover, .btn-link[disabled]:focus,
+   fieldset[disabled] .btn-link:hover,
+   fieldset[disabled] .btn-link:focus {
+     color: #777777;
+@@ -3640,27 +3524,21 @@
+     color: #333333;
+     white-space: nowrap; }
+ 
+-.dropdown-menu > li > a:hover,
+-.dropdown-menu > li > a:focus {
++.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+   text-decoration: none;
+   color: #262626;
+   background-color: #f5f5f5; }
+ 
+-.dropdown-menu > .active > a,
+-.dropdown-menu > .active > a:hover,
+-.dropdown-menu > .active > a:focus {
++.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+   color: #fff;
+   text-decoration: none;
+   outline: 0;
+   background-color: #337ab7; }
+ 
+-.dropdown-menu > .disabled > a,
+-.dropdown-menu > .disabled > a:hover,
+-.dropdown-menu > .disabled > a:focus {
++.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+   color: #777777; }
+ 
+-.dropdown-menu > .disabled > a:hover,
+-.dropdown-menu > .disabled > a:focus {
++.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+@@ -3730,10 +3608,7 @@
+   .btn-group-vertical > .btn {
+     position: relative;
+     float: left; }
+-    .btn-group > .btn:hover,
+-    .btn-group > .btn:focus,
+-    .btn-group > .btn:active,
+-    .btn-group > .btn.active,
++    .btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
+     .btn-group-vertical > .btn:hover,
+     .btn-group-vertical > .btn:focus,
+     .btn-group-vertical > .btn:active,
+@@ -3748,8 +3623,7 @@
+ 
+ .btn-toolbar {
+   margin-left: -5px; }
+-  .btn-toolbar:before,
+-  .btn-toolbar:after {
++  .btn-toolbar:before, .btn-toolbar:after {
+     content: " ";
+     display: table; }
+   .btn-toolbar:after {
+@@ -3828,8 +3702,7 @@
+   width: 100%;
+   max-width: 100%; }
+ 
+-.btn-group-vertical > .btn-group:before,
+-.btn-group-vertical > .btn-group:after {
++.btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after {
+   content: " ";
+   display: table; }
+ 
+@@ -3934,12 +3807,14 @@
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   border-radius: 4px; }
+-  .input-group-addon.input-sm, .input-group-sm > .input-group-addon,
++  .input-group-addon.input-sm,
++  .input-group-sm > .input-group-addon,
+   .input-group-sm > .input-group-btn > .input-group-addon.btn {
+     padding: 5px 10px;
+     font-size: 12px;
+     border-radius: 3px; }
+-  .input-group-addon.input-lg, .input-group-lg > .input-group-addon,
++  .input-group-addon.input-lg,
++  .input-group-lg > .input-group-addon,
+   .input-group-lg > .input-group-btn > .input-group-addon.btn {
+     padding: 10px 16px;
+     font-size: 18px;
+@@ -3982,9 +3857,7 @@
+     position: relative; }
+     .input-group-btn > .btn + .btn {
+       margin-left: -1px; }
+-    .input-group-btn > .btn:hover,
+-    .input-group-btn > .btn:focus,
+-    .input-group-btn > .btn:active {
++    .input-group-btn > .btn:hover, .input-group-btn > .btn:focus, .input-group-btn > .btn:active {
+       z-index: 2; }
+   .input-group-btn:first-child > .btn,
+   .input-group-btn:first-child > .btn-group {
+@@ -3997,8 +3870,7 @@
+   margin-bottom: 0;
+   padding-left: 0;
+   list-style: none; }
+-  .nav:before,
+-  .nav:after {
++  .nav:before, .nav:after {
+     content: " ";
+     display: table; }
+   .nav:after {
+@@ -4010,21 +3882,17 @@
+       position: relative;
+       display: block;
+       padding: 10px 15px; }
+-      .nav > li > a:hover,
+-      .nav > li > a:focus {
++      .nav > li > a:hover, .nav > li > a:focus {
+         text-decoration: none;
+         background-color: #eeeeee; }
+     .nav > li.disabled > a {
+       color: #777777; }
+-      .nav > li.disabled > a:hover,
+-      .nav > li.disabled > a:focus {
++      .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+         color: #777777;
+         text-decoration: none;
+         background-color: transparent;
+         cursor: not-allowed; }
+-  .nav .open > a,
+-  .nav .open > a:hover,
+-  .nav .open > a:focus {
++  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+     background-color: #eeeeee;
+     border-color: #484848; }
+   .nav .nav-divider {
+@@ -4047,9 +3915,7 @@
+       border-radius: 4px 4px 0 0; }
+       .nav-tabs > li > a:hover {
+         border-color: #eeeeee #eeeeee #ddd; }
+-    .nav-tabs > li.active > a,
+-    .nav-tabs > li.active > a:hover,
+-    .nav-tabs > li.active > a:focus {
++    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+       color: #555555;
+       background-color: #fff;
+       border: 1px solid #ddd;
+@@ -4062,9 +3928,7 @@
+     border-radius: 4px; }
+   .nav-pills > li + li {
+     margin-left: 2px; }
+-  .nav-pills > li.active > a,
+-  .nav-pills > li.active > a:hover,
+-  .nav-pills > li.active > a:focus {
++  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+     color: #fff;
+     background-color: #337ab7; }
+ 
+@@ -4096,17 +3960,17 @@
+   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+     margin-right: 0;
+     border-radius: 4px; }
+-  .nav-tabs-justified > .active > a,
+-  .nav-tabs.nav-justified > .active > a, .nav-tabs-justified > .active > a:hover,
+-  .nav-tabs.nav-justified > .active > a:hover, .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
++  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
++  .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
++  .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
+     border: 1px solid #ddd; }
+   @media (min-width: 768px) {
+     .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+       border-bottom: 1px solid #ddd;
+       border-radius: 4px 4px 0 0; }
+-    .nav-tabs-justified > .active > a,
+-    .nav-tabs.nav-justified > .active > a, .nav-tabs-justified > .active > a:hover,
+-    .nav-tabs.nav-justified > .active > a:hover, .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
++    .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
++    .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
++    .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
+       border-bottom-color: #fff; } }
+ 
+ .tab-content > .tab-pane {
+@@ -4125,8 +3989,7 @@
+   min-height: 50px;
+   margin-bottom: 20px;
+   border: 1px solid transparent; }
+-  .navbar:before,
+-  .navbar:after {
++  .navbar:before, .navbar:after {
+     content: " ";
+     display: table; }
+   .navbar:after {
+@@ -4135,8 +3998,7 @@
+     .navbar {
+       border-radius: 4px; } }
+ 
+-.navbar-header:before,
+-.navbar-header:after {
++.navbar-header:before, .navbar-header:after {
+   content: " ";
+   display: table; }
+ 
+@@ -4154,8 +4016,7 @@
+   border-top: 1px solid transparent;
+   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+   -webkit-overflow-scrolling: touch; }
+-  .navbar-collapse:before,
+-  .navbar-collapse:after {
++  .navbar-collapse:before, .navbar-collapse:after {
+     content: " ";
+     display: table; }
+   .navbar-collapse:after {
+@@ -4235,8 +4096,7 @@
+   font-size: 18px;
+   line-height: 20px;
+   height: 50px; }
+-  .navbar-brand:hover,
+-  .navbar-brand:focus {
++  .navbar-brand:hover, .navbar-brand:focus {
+     text-decoration: none; }
+   .navbar-brand > img {
+     display: block; }
+@@ -4289,8 +4149,7 @@
+         padding: 5px 15px 5px 25px; }
+       .navbar-nav .open .dropdown-menu > li > a {
+         line-height: 20px; }
+-        .navbar-nav .open .dropdown-menu > li > a:hover,
+-        .navbar-nav .open .dropdown-menu > li > a:focus {
++        .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+           background-image: none; } }
+   @media (min-width: 768px) {
+     .navbar-nav {
+@@ -4411,58 +4270,44 @@
+   border-color: #e7e7e7; }
+   .navbar-default .navbar-brand {
+     color: #777; }
+-    .navbar-default .navbar-brand:hover,
+-    .navbar-default .navbar-brand:focus {
++    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+       color: #5e5e5e;
+       background-color: transparent; }
+   .navbar-default .navbar-text {
+     color: #777; }
+   .navbar-default .navbar-nav > li > a {
+     color: #777; }
+-    .navbar-default .navbar-nav > li > a:hover,
+-    .navbar-default .navbar-nav > li > a:focus {
++    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+       color: #333;
+       background-color: transparent; }
+-  .navbar-default .navbar-nav > .active > a,
+-  .navbar-default .navbar-nav > .active > a:hover,
+-  .navbar-default .navbar-nav > .active > a:focus {
++  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+     color: #555;
+     background-color: #e7e7e7; }
+-  .navbar-default .navbar-nav > .disabled > a,
+-  .navbar-default .navbar-nav > .disabled > a:hover,
+-  .navbar-default .navbar-nav > .disabled > a:focus {
++  .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+     color: #ccc;
+     background-color: transparent; }
+   .navbar-default .navbar-toggle {
+     border-color: #ddd; }
+-    .navbar-default .navbar-toggle:hover,
+-    .navbar-default .navbar-toggle:focus {
++    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+       background-color: #ddd; }
+     .navbar-default .navbar-toggle .icon-bar {
+       background-color: #888; }
+   .navbar-default .navbar-collapse,
+   .navbar-default .navbar-form {
+     border-color: #e7e7e7; }
+-  .navbar-default .navbar-nav > .open > a,
+-  .navbar-default .navbar-nav > .open > a:hover,
+-  .navbar-default .navbar-nav > .open > a:focus {
++  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+     background-color: #e7e7e7;
+     color: #555; }
+   @media (max-width: 767px) {
+     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+       color: #777; }
+-      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+-      .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
++      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+         color: #333;
+         background-color: transparent; }
+-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
++    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+       color: #555;
+       background-color: #e7e7e7; }
+-    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+-    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+-    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
++    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+       color: #ccc;
+       background-color: transparent; } }
+   .navbar-default .navbar-link {
+@@ -4471,11 +4316,9 @@
+       color: #333; }
+   .navbar-default .btn-link {
+     color: #777; }
+-    .navbar-default .btn-link:hover,
+-    .navbar-default .btn-link:focus {
++    .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+       color: #333; }
+-    .navbar-default .btn-link[disabled]:hover,
+-    .navbar-default .btn-link[disabled]:focus,
++    .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus,
+     fieldset[disabled] .navbar-default .btn-link:hover,
+     fieldset[disabled] .navbar-default .btn-link:focus {
+       color: #ccc; }
+@@ -4485,41 +4328,32 @@
+   border-color: #090909; }
+   .navbar-inverse .navbar-brand {
+     color: #9d9d9d; }
+-    .navbar-inverse .navbar-brand:hover,
+-    .navbar-inverse .navbar-brand:focus {
++    .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+       color: #fff;
+       background-color: transparent; }
+   .navbar-inverse .navbar-text {
+     color: #9d9d9d; }
+   .navbar-inverse .navbar-nav > li > a {
+     color: #9d9d9d; }
+-    .navbar-inverse .navbar-nav > li > a:hover,
+-    .navbar-inverse .navbar-nav > li > a:focus {
++    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+       color: #fff;
+       background-color: transparent; }
+-  .navbar-inverse .navbar-nav > .active > a,
+-  .navbar-inverse .navbar-nav > .active > a:hover,
+-  .navbar-inverse .navbar-nav > .active > a:focus {
++  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+     color: #fff;
+     background-color: #090909; }
+-  .navbar-inverse .navbar-nav > .disabled > a,
+-  .navbar-inverse .navbar-nav > .disabled > a:hover,
+-  .navbar-inverse .navbar-nav > .disabled > a:focus {
++  .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
+     color: #444;
+     background-color: transparent; }
+   .navbar-inverse .navbar-toggle {
+     border-color: #333; }
+-    .navbar-inverse .navbar-toggle:hover,
+-    .navbar-inverse .navbar-toggle:focus {
++    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+       background-color: #333; }
+     .navbar-inverse .navbar-toggle .icon-bar {
+       background-color: #fff; }
+   .navbar-inverse .navbar-collapse,
+   .navbar-inverse .navbar-form {
+     border-color: #101010; }
+-  .navbar-inverse .navbar-nav > .open > a,
+-  .navbar-inverse .navbar-nav > .open > a:hover,
+-  .navbar-inverse .navbar-nav > .open > a:focus {
++  .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+     background-color: #090909;
+     color: #fff; }
+   @media (max-width: 767px) {
+@@ -4529,18 +4363,13 @@
+       background-color: #090909; }
+     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+       color: #9d9d9d; }
+-      .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+-      .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
++      .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+         color: #fff;
+         background-color: transparent; }
+-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
++    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+       color: #fff;
+       background-color: #090909; }
+-    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+-    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+-    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
++    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+       color: #444;
+       background-color: transparent; } }
+   .navbar-inverse .navbar-link {
+@@ -4549,11 +4378,9 @@
+       color: #fff; }
+   .navbar-inverse .btn-link {
+     color: #9d9d9d; }
+-    .navbar-inverse .btn-link:hover,
+-    .navbar-inverse .btn-link:focus {
++    .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
+       color: #fff; }
+-    .navbar-inverse .btn-link[disabled]:hover,
+-    .navbar-inverse .btn-link[disabled]:focus,
++    .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus,
+     fieldset[disabled] .navbar-inverse .btn-link:hover,
+     fieldset[disabled] .navbar-inverse .btn-link:focus {
+       color: #444; }
+@@ -4567,7 +4394,7 @@
+   .breadcrumb > li {
+     display: inline-block; }
+     .breadcrumb > li + li:before {
+-      content: "/\\00a0";
++      content: "/ ";
+       padding: 0 5px;
+       color: #ccc; }
+   .breadcrumb > .active {
+@@ -4600,16 +4427,13 @@
+     .pagination > li:last-child > span {
+       border-bottom-right-radius: 4px;
+       border-top-right-radius: 4px; }
+-  .pagination > li > a:hover,
+-  .pagination > li > a:focus,
++  .pagination > li > a:hover, .pagination > li > a:focus,
+   .pagination > li > span:hover,
+   .pagination > li > span:focus {
+     color: #222222;
+     background-color: #eeeeee;
+     border-color: #ddd; }
+-  .pagination > .active > a,
+-  .pagination > .active > a:hover,
+-  .pagination > .active > a:focus,
++  .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+   .pagination > .active > span,
+   .pagination > .active > span:hover,
+   .pagination > .active > span:focus {
+@@ -4664,8 +4488,7 @@
+   margin: 20px 0;
+   list-style: none;
+   text-align: center; }
+-  .pager:before,
+-  .pager:after {
++  .pager:before, .pager:after {
+     content: " ";
+     display: table; }
+   .pager:after {
+@@ -4699,7 +4522,7 @@
+ 
+ .label {
+   display: inline;
+-  padding: 0.2em 0.6em 0.3em;
++  padding: .2em .6em .3em;
+   font-size: 75%;
+   font-weight: bold;
+   line-height: 1;
+@@ -4714,46 +4537,39 @@
+     position: relative;
+     top: -1px; }
+ 
+-a.label:hover,
+-a.label:focus {
++a.label:hover, a.label:focus {
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer; }
+ 
+ .label-default {
+   background-color: #777777; }
+-  .label-default[href]:hover,
+-  .label-default[href]:focus {
++  .label-default[href]:hover, .label-default[href]:focus {
+     background-color: #5e5e5e; }
+ 
+ .label-primary {
+   background-color: #337ab7; }
+-  .label-primary[href]:hover,
+-  .label-primary[href]:focus {
++  .label-primary[href]:hover, .label-primary[href]:focus {
+     background-color: #286090; }
+ 
+ .label-success {
+   background-color: #5cb85c; }
+-  .label-success[href]:hover,
+-  .label-success[href]:focus {
++  .label-success[href]:hover, .label-success[href]:focus {
+     background-color: #449d44; }
+ 
+ .label-info {
+   background-color: #5bc0de; }
+-  .label-info[href]:hover,
+-  .label-info[href]:focus {
++  .label-info[href]:hover, .label-info[href]:focus {
+     background-color: #31b0d5; }
+ 
+ .label-warning {
+   background-color: #f0ad4e; }
+-  .label-warning[href]:hover,
+-  .label-warning[href]:focus {
++  .label-warning[href]:hover, .label-warning[href]:focus {
+     background-color: #ec971f; }
+ 
+ .label-danger {
+   background-color: #d9534f; }
+-  .label-danger[href]:hover,
+-  .label-danger[href]:focus {
++  .label-danger[href]:hover, .label-danger[href]:focus {
+     background-color: #c9302c; }
+ 
+ .badge {
+@@ -4774,8 +4590,7 @@
+   .btn .badge {
+     position: relative;
+     top: -1px; }
+-  .btn-xs .badge,
+-  .btn-group-xs > .btn .badge,
++  .btn-xs .badge, .btn-group-xs > .btn .badge,
+   .btn-group-xs > .btn .badge {
+     top: 0;
+     padding: 1px 5px; }
+@@ -4790,8 +4605,7 @@
+   .nav-pills > li > a > .badge {
+     margin-left: 3px; }
+ 
+-a.badge:hover,
+-a.badge:focus {
++a.badge:hover, a.badge:focus {
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer; }
+@@ -4869,9 +4683,11 @@
+   .alert > p + p {
+     margin-top: 5px; }
+ 
+-.alert-dismissable, .alert-dismissible {
++.alert-dismissable,
++.alert-dismissible {
+   padding-right: 35px; }
+-  .alert-dismissable .close, .alert-dismissible .close {
++  .alert-dismissable .close,
++  .alert-dismissible .close {
+     position: relative;
+     top: -2px;
+     right: -21px;
+@@ -5057,47 +4873,34 @@
+   color: #555; }
+   a.list-group-item .list-group-item-heading {
+     color: #333; }
+-  a.list-group-item:hover,
+-  a.list-group-item:focus {
++  a.list-group-item:hover, a.list-group-item:focus {
+     text-decoration: none;
+     color: #555;
+     background-color: #f5f5f5; }
+ 
+-.list-group-item.disabled,
+-.list-group-item.disabled:hover,
+-.list-group-item.disabled:focus {
++.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
+   background-color: #eeeeee;
+   color: #777777;
+   cursor: not-allowed; }
+-  .list-group-item.disabled .list-group-item-heading,
+-  .list-group-item.disabled:hover .list-group-item-heading,
+-  .list-group-item.disabled:focus .list-group-item-heading {
++  .list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading {
+     color: inherit; }
+-  .list-group-item.disabled .list-group-item-text,
+-  .list-group-item.disabled:hover .list-group-item-text,
+-  .list-group-item.disabled:focus .list-group-item-text {
++  .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
+     color: #777777; }
+ 
+-.list-group-item.active,
+-.list-group-item.active:hover,
+-.list-group-item.active:focus {
++.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+   z-index: 2;
+   color: #fff;
+   background-color: #337ab7;
+   border-color: #337ab7; }
+   .list-group-item.active .list-group-item-heading,
+   .list-group-item.active .list-group-item-heading > small,
+-  .list-group-item.active .list-group-item-heading > .small,
+-  .list-group-item.active:hover .list-group-item-heading,
++  .list-group-item.active .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading,
+   .list-group-item.active:hover .list-group-item-heading > small,
+-  .list-group-item.active:hover .list-group-item-heading > .small,
+-  .list-group-item.active:focus .list-group-item-heading,
++  .list-group-item.active:hover .list-group-item-heading > .small, .list-group-item.active:focus .list-group-item-heading,
+   .list-group-item.active:focus .list-group-item-heading > small,
+   .list-group-item.active:focus .list-group-item-heading > .small {
+     color: inherit; }
+-  .list-group-item.active .list-group-item-text,
+-  .list-group-item.active:hover .list-group-item-text,
+-  .list-group-item.active:focus .list-group-item-text {
++  .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
+     color: #c7ddef; }
+ 
+ .list-group-item-success {
+@@ -5108,13 +4911,10 @@
+   color: #3c763d; }
+   a.list-group-item-success .list-group-item-heading {
+     color: inherit; }
+-  a.list-group-item-success:hover,
+-  a.list-group-item-success:focus {
++  a.list-group-item-success:hover, a.list-group-item-success:focus {
+     color: #3c763d;
+     background-color: #d0e9c6; }
+-  a.list-group-item-success.active,
+-  a.list-group-item-success.active:hover,
+-  a.list-group-item-success.active:focus {
++  a.list-group-item-success.active, a.list-group-item-success.active:hover, a.list-group-item-success.active:focus {
+     color: #fff;
+     background-color: #3c763d;
+     border-color: #3c763d; }
+@@ -5127,13 +4927,10 @@
+   color: #31708f; }
+   a.list-group-item-info .list-group-item-heading {
+     color: inherit; }
+-  a.list-group-item-info:hover,
+-  a.list-group-item-info:focus {
++  a.list-group-item-info:hover, a.list-group-item-info:focus {
+     color: #31708f;
+     background-color: #c4e3f3; }
+-  a.list-group-item-info.active,
+-  a.list-group-item-info.active:hover,
+-  a.list-group-item-info.active:focus {
++  a.list-group-item-info.active, a.list-group-item-info.active:hover, a.list-group-item-info.active:focus {
+     color: #fff;
+     background-color: #31708f;
+     border-color: #31708f; }
+@@ -5146,13 +4943,10 @@
+   color: #8a6d3b; }
+   a.list-group-item-warning .list-group-item-heading {
+     color: inherit; }
+-  a.list-group-item-warning:hover,
+-  a.list-group-item-warning:focus {
++  a.list-group-item-warning:hover, a.list-group-item-warning:focus {
+     color: #8a6d3b;
+     background-color: #faf2cc; }
+-  a.list-group-item-warning.active,
+-  a.list-group-item-warning.active:hover,
+-  a.list-group-item-warning.active:focus {
++  a.list-group-item-warning.active, a.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus {
+     color: #fff;
+     background-color: #8a6d3b;
+     border-color: #8a6d3b; }
+@@ -5165,13 +4959,10 @@
+   color: #a94442; }
+   a.list-group-item-danger .list-group-item-heading {
+     color: inherit; }
+-  a.list-group-item-danger:hover,
+-  a.list-group-item-danger:focus {
++  a.list-group-item-danger:hover, a.list-group-item-danger:focus {
+     color: #a94442;
+     background-color: #ebcccc; }
+-  a.list-group-item-danger.active,
+-  a.list-group-item-danger.active:hover,
+-  a.list-group-item-danger.active:focus {
++  a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
+     color: #fff;
+     background-color: #a94442;
+     border-color: #a94442; }
+@@ -5194,8 +4985,7 @@
+ 
+ .panel-body {
+   padding: 15px; }
+-  .panel-body:before,
+-  .panel-body:after {
++  .panel-body:before, .panel-body:after {
+     content: " ";
+     display: table; }
+   .panel-body:after {
+@@ -5538,8 +5328,7 @@
+   text-shadow: 0 1px 0 #fff;
+   opacity: 0.2;
+   filter: alpha(opacity=20); }
+-  .close:hover,
+-  .close:focus {
++  .close:hover, .close:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+@@ -5637,8 +5426,7 @@
+   padding: 15px;
+   text-align: right;
+   border-top: 1px solid #e5e5e5; }
+-  .modal-footer:before,
+-  .modal-footer:after {
++  .modal-footer:before, .modal-footer:after {
+     content: " ";
+     display: table; }
+   .modal-footer:after {
+@@ -5811,8 +5599,7 @@
+ .popover-content {
+   padding: 9px 14px; }
+ 
+-.popover > .arrow,
+-.popover > .arrow:after {
++.popover > .arrow, .popover > .arrow:after {
+   position: absolute;
+   display: block;
+   width: 0;
+@@ -5914,19 +5701,15 @@
+         -webkit-perspective: 1000;
+         -moz-perspective: 1000;
+         perspective: 1000; }
+-        .carousel-inner > .item.next,
+-        .carousel-inner > .item.active.right {
++        .carousel-inner > .item.next, .carousel-inner > .item.active.right {
+           -webkit-transform: translate3d(100%, 0, 0);
+           transform: translate3d(100%, 0, 0);
+           left: 0; }
+-        .carousel-inner > .item.prev,
+-        .carousel-inner > .item.active.left {
++        .carousel-inner > .item.prev, .carousel-inner > .item.active.left {
+           -webkit-transform: translate3d(-100%, 0, 0);
+           transform: translate3d(-100%, 0, 0);
+           left: 0; }
+-        .carousel-inner > .item.next.left,
+-        .carousel-inner > .item.prev.right,
+-        .carousel-inner > .item.active {
++        .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active {
+           -webkit-transform: translate3d(0, 0, 0);
+           transform: translate3d(0, 0, 0);
+           left: 0; } }
+@@ -5979,8 +5762,7 @@
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+     background-repeat: repeat-x;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); }
+-  .carousel-control:hover,
+-  .carousel-control:focus {
++  .carousel-control:hover, .carousel-control:focus {
+     outline: 0;
+     color: #fff;
+     text-decoration: none;
+@@ -6077,8 +5859,7 @@
+   .carousel-indicators {
+     bottom: 20px; } }
+ 
+-.clearfix:before,
+-.clearfix:after {
++.clearfix:before, .clearfix:after {
+   content: " ";
+   display: table; }
+ 
+@@ -6339,27 +6120,21 @@
+     color: #333333;
+     white-space: nowrap; }
+ 
+-.dropdown-menu > li > a:hover,
+-.dropdown-menu > li > a:focus {
++.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+   text-decoration: none;
+   color: #262626;
+   background-color: #f5f5f5; }
+ 
+-.dropdown-menu > .active > a,
+-.dropdown-menu > .active > a:hover,
+-.dropdown-menu > .active > a:focus {
++.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+   color: #fff;
+   text-decoration: none;
+   outline: 0;
+   background-color: #337ab7; }
+ 
+-.dropdown-menu > .disabled > a,
+-.dropdown-menu > .disabled > a:hover,
+-.dropdown-menu > .disabled > a:focus {
++.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+   color: #777777; }
+ 
+-.dropdown-menu > .disabled > a:hover,
+-.dropdown-menu > .disabled > a:focus {
++.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+@@ -6883,6 +6658,12 @@
+ .page-sidebar .sidebar-menu .menu-items > li > a > .title {
+   width: 75% !important; }
+ 
++.page-sidebar .sidebar-menu.scrollbar {
++  height: calc(100% - 50px);
++  overflow-y: hidden;
++  overflow-x: hidden;
++  position: relative; }
++
+ #summernote .panel {
+   margin-bottom: 20px;
+   background-color: #ffffff;
+@@ -7712,24 +7493,21 @@
+   color: #777777;
+   text-decoration: none; }
+ 
+-.note-editor .btn-lg,
+-.note-editor .btn-group-lg > .btn,
++.note-editor .btn-lg, .note-editor .btn-group-lg > .btn,
+ .note-editor .btn-group-lg > .btn {
+   padding: 10px 16px;
+   font-size: 18px;
+   line-height: 1.3333333;
+   border-radius: 6px; }
+ 
+-.note-editor .btn-sm,
+-.note-editor .btn-group-sm > .btn,
++.note-editor .btn-sm, .note-editor .btn-group-sm > .btn,
+ .note-editor .btn-group-sm > .btn {
+   padding: 5px 10px;
+   font-size: 12px;
+   line-height: 1.5;
+   border-radius: 3px; }
+ 
+-.note-editor .btn-xs,
+-.note-editor .btn-group-xs > .btn,
++.note-editor .btn-xs, .note-editor .btn-group-xs > .btn,
+ .note-editor .btn-group-xs > .btn {
+   padding: 1px 5px;
+   font-size: 12px;
+Index: public/bower_components/angular-perfect-scrollbar/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/angular-perfect-scrollbar/README.md	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/angular-perfect-scrollbar/README.md	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/ajax/load.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/ajax/load.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/ajax/load.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/core/access.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/core/access.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/core/access.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/indexOf.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/indexOf.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/indexOf.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/css/public.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/css/public.css	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/css/public.css	(revision )
+@@ -47,27 +47,21 @@
+     color: #333333;
+     white-space: nowrap; }
+ 
+-.dropdown-menu > li > a:hover,
+-.dropdown-menu > li > a:focus {
++.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+   text-decoration: none;
+   color: #262626;
+   background-color: #f5f5f5; }
+ 
+-.dropdown-menu > .active > a,
+-.dropdown-menu > .active > a:hover,
+-.dropdown-menu > .active > a:focus {
++.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+   color: #fff;
+   text-decoration: none;
+   outline: 0;
+   background-color: #54a72f; }
+ 
+-.dropdown-menu > .disabled > a,
+-.dropdown-menu > .disabled > a:hover,
+-.dropdown-menu > .disabled > a:focus {
++.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+   color: #777777; }
+ 
+-.dropdown-menu > .disabled > a:hover,
+-.dropdown-menu > .disabled > a:focus {
++.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+@@ -1516,7 +1510,8 @@
+   text-transform: none; }
+ 
+ button,
+-html input[type="button"], input[type="reset"],
++html input[type="button"],
++input[type="reset"],
+ input[type="submit"] {
+   -webkit-appearance: button;
+   cursor: pointer; }
+@@ -1622,37 +1617,7 @@
+   input[type="color"]:-webkit-autofill, input[type="date"]:-webkit-autofill, input[type="datetime"]:-webkit-autofill, input[type="datetime-local"]:-webkit-autofill, input[type="email"]:-webkit-autofill, input[type="month"]:-webkit-autofill, input[type="number"]:-webkit-autofill, input[type="password"]:-webkit-autofill, input[type="search"]:-webkit-autofill, input[type="tel"]:-webkit-autofill, input[type="text"]:-webkit-autofill, input[type="time"]:-webkit-autofill, input[type="url"]:-webkit-autofill, input[type="week"]:-webkit-autofill, textarea:-webkit-autofill {
+     -webkit-transition-delay: 9999s !important;
+     -webkit-transition: color 9999s ease-out, background-color 9999s ease-out !important; }
+-    input[type="color"]:-webkit-autofill:hover,
+-    input[type="color"]:-webkit-autofill:focus,
+-    input[type="color"]:-webkit-autofill:active, input[type="date"]:-webkit-autofill:hover,
+-    input[type="date"]:-webkit-autofill:focus,
+-    input[type="date"]:-webkit-autofill:active, input[type="datetime"]:-webkit-autofill:hover,
+-    input[type="datetime"]:-webkit-autofill:focus,
+-    input[type="datetime"]:-webkit-autofill:active, input[type="datetime-local"]:-webkit-autofill:hover,
+-    input[type="datetime-local"]:-webkit-autofill:focus,
+-    input[type="datetime-local"]:-webkit-autofill:active, input[type="email"]:-webkit-autofill:hover,
+-    input[type="email"]:-webkit-autofill:focus,
+-    input[type="email"]:-webkit-autofill:active, input[type="month"]:-webkit-autofill:hover,
+-    input[type="month"]:-webkit-autofill:focus,
+-    input[type="month"]:-webkit-autofill:active, input[type="number"]:-webkit-autofill:hover,
+-    input[type="number"]:-webkit-autofill:focus,
+-    input[type="number"]:-webkit-autofill:active, input[type="password"]:-webkit-autofill:hover,
+-    input[type="password"]:-webkit-autofill:focus,
+-    input[type="password"]:-webkit-autofill:active, input[type="search"]:-webkit-autofill:hover,
+-    input[type="search"]:-webkit-autofill:focus,
+-    input[type="search"]:-webkit-autofill:active, input[type="tel"]:-webkit-autofill:hover,
+-    input[type="tel"]:-webkit-autofill:focus,
+-    input[type="tel"]:-webkit-autofill:active, input[type="text"]:-webkit-autofill:hover,
+-    input[type="text"]:-webkit-autofill:focus,
+-    input[type="text"]:-webkit-autofill:active, input[type="time"]:-webkit-autofill:hover,
+-    input[type="time"]:-webkit-autofill:focus,
+-    input[type="time"]:-webkit-autofill:active, input[type="url"]:-webkit-autofill:hover,
+-    input[type="url"]:-webkit-autofill:focus,
+-    input[type="url"]:-webkit-autofill:active, input[type="week"]:-webkit-autofill:hover,
+-    input[type="week"]:-webkit-autofill:focus,
+-    input[type="week"]:-webkit-autofill:active, textarea:-webkit-autofill:hover,
+-    textarea:-webkit-autofill:focus,
+-    textarea:-webkit-autofill:active {
++    input[type="color"]:-webkit-autofill:hover, input[type="color"]:-webkit-autofill:focus, input[type="color"]:-webkit-autofill:active, input[type="date"]:-webkit-autofill:hover, input[type="date"]:-webkit-autofill:focus, input[type="date"]:-webkit-autofill:active, input[type="datetime"]:-webkit-autofill:hover, input[type="datetime"]:-webkit-autofill:focus, input[type="datetime"]:-webkit-autofill:active, input[type="datetime-local"]:-webkit-autofill:hover, input[type="datetime-local"]:-webkit-autofill:focus, input[type="datetime-local"]:-webkit-autofill:active, input[type="email"]:-webkit-autofill:hover, input[type="email"]:-webkit-autofill:focus, input[type="email"]:-webkit-autofill:active, input[type="month"]:-webkit-autofill:hover, input[type="month"]:-webkit-autofill:focus, input[type="month"]:-webkit-autofill:active, input[type="number"]:-webkit-autofill:hover, input[type="number"]:-webkit-autofill:focus, input[type="number"]:-webkit-autofill:active, input[type="password"]:-webkit-autofill:hover, input[type="password"]:-webkit-autofill:focus, input[type="password"]:-webkit-autofill:active, input[type="search"]:-webkit-autofill:hover, input[type="search"]:-webkit-autofill:focus, input[type="search"]:-webkit-autofill:active, input[type="tel"]:-webkit-autofill:hover, input[type="tel"]:-webkit-autofill:focus, input[type="tel"]:-webkit-autofill:active, input[type="text"]:-webkit-autofill:hover, input[type="text"]:-webkit-autofill:focus, input[type="text"]:-webkit-autofill:active, input[type="time"]:-webkit-autofill:hover, input[type="time"]:-webkit-autofill:focus, input[type="time"]:-webkit-autofill:active, input[type="url"]:-webkit-autofill:hover, input[type="url"]:-webkit-autofill:focus, input[type="url"]:-webkit-autofill:active, input[type="week"]:-webkit-autofill:hover, input[type="week"]:-webkit-autofill:focus, input[type="week"]:-webkit-autofill:active, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus, textarea:-webkit-autofill:active {
+       -webkit-transition-delay: 9999s !important;
+       -webkit-transition: color 9999s ease-out, background-color 9999s ease-out !important; }
+ 
+@@ -1719,9 +1684,7 @@
+   -webkit-transition: color 0.2s ease 0s;
+   -moz-transition: color 0.2s ease 0s;
+   transition: color 0.2s ease 0s; }
+-  a:active,
+-  a:hover,
+-  a:focus {
++  a:active, a:hover, a:focus {
+     opacity: 1;
+     color: #222222;
+     text-decoration: none; }
+@@ -1948,13 +1911,7 @@
+   .m-btn:active, .m-btn-primary:active, .m-btn-default:active {
+     border-color: #e6e6e6;
+     background: #fff; }
+-  .m-btn:focus,
+-  .m-btn-primary:focus,
+-  .m-btn-default:focus,
+-  .m-btn:active:focus,
+-  .m-btn-primary:active:focus,
+-  .m-btn-default:active:focus,
+-  .m-btn.active:focus, .active.m-btn-primary:focus, .active.m-btn-default:focus {
++  .m-btn:focus, .m-btn-primary:focus, .m-btn-default:focus, .m-btn:active:focus, .m-btn-primary:active:focus, .m-btn-default:active:focus, .m-btn.active:focus, .active.m-btn-primary:focus, .active.m-btn-default:focus {
+     outline: none !important;
+     outline-style: none; }
+ 
+@@ -1973,8 +1930,7 @@
+     color: #ffffff;
+     background: #ed2f19;
+     border-color: #ed2a15; }
+-  .m-btn-primary:focus,
+-  .m-btn-primary:hover {
++  .m-btn-primary:focus, .m-btn-primary:hover {
+     color: #ffffff;
+     background: #f15949;
+     border-color: #f15e4d; }
+@@ -2001,11 +1957,9 @@
+       width: 40px;
+       font-size: 26px;
+       line-height: 40px; }
+-  .m-btn--read:focus,
+-  .m-btn--read:hover {
++  .m-btn--read:focus, .m-btn--read:hover {
+     color: #bfbfbf; }
+-    .m-btn--read:focus .icon-fo-right,
+-    .m-btn--read:hover .icon-fo-right {
++    .m-btn--read:focus .icon-fo-right, .m-btn--read:hover .icon-fo-right {
+       background: #f15949;
+       border-color: #f15e4d; }
+ 
+@@ -2030,8 +1984,7 @@
+   color: #5e5e5e;
+   background-color: #ffffff;
+   border-color: #f0f0f0; }
+-  .m-btn-default:focus,
+-  .m-btn-default:hover {
++  .m-btn-default:focus, .m-btn-default:hover {
+     background-color: #fafafa;
+     border-color: rgba(98, 98, 98, 0.27);
+     color: #1a1a1a; }
+@@ -2162,8 +2115,7 @@
+   -webkit-transition: 0.2s ease-in-out;
+   -moz-transition: 0.2s ease-in-out;
+   transition: 0.2s ease-in-out; }
+-  .m-header .header-menu .menu-item.active,
+-  .m-header .header-menu .menu-item:hover {
++  .m-header .header-menu .menu-item.active, .m-header .header-menu .menu-item:hover {
+     background-color: #ffffff; }
+ 
+ @media (min-width: 992px) {
+@@ -2182,8 +2134,7 @@
+   -webkit-transition: 0.2s ease;
+   -moz-transition: 0.2s ease;
+   transition: 0.2s ease; }
+-  .m-header .header-menu--responsive .fa-bars.show,
+-  .m-header .header-menu--responsive .fa-bars:hover {
++  .m-header .header-menu--responsive .fa-bars.show, .m-header .header-menu--responsive .fa-bars:hover {
+     color: #000000;
+     border: 1px solid rgba(0, 0, 0, 0.3); }
+ 
+@@ -2211,8 +2162,7 @@
+   -webkit-transition: 0.2s ease-in-out;
+   -moz-transition: 0.2s ease-in-out;
+   transition: 0.2s ease-in-out; }
+-  .m-header .header-menu--responsive .menu-item.active,
+-  .m-header .header-menu--responsive .menu-item:hover {
++  .m-header .header-menu--responsive .menu-item.active, .m-header .header-menu--responsive .menu-item:hover {
+     background-color: #ffffff; }
+ 
+ @media (min-width: 767px) {
+@@ -2268,8 +2218,7 @@
+   -moz-border-radius: 2px;
+   -ms-border-radius: 2px;
+   border-radius: 2px; }
+-  .slick-slider .slick-prev:focus,
+-  .slick-slider .slick-prev:hover,
++  .slick-slider .slick-prev:focus, .slick-slider .slick-prev:hover,
+   .slick-slider .slick-next:focus,
+   .slick-slider .slick-next:hover {
+     background: #f15949;
+Index: public/bower_components/jquery/src/event/alias.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/event/alias.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/event/alias.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/intro.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/intro.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/intro.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/core.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/core.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/core.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/angular-perfect-scrollbar/package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/angular-perfect-scrollbar/package.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/angular-perfect-scrollbar/package.json	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/reach-the-end-callback.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/reach-the-end-callback.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/reach-the-end-callback.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/wrap.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/wrap.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/wrap.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/text-content.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/text-content.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/text-content.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/iframe-content.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/iframe-content.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/iframe-content.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/core/parseHTML.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/core/parseHTML.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/core/parseHTML.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/var/rnumnonpx.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/var/rnumnonpx.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/var/rnumnonpx.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/ajax/parseJSON.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/ajax/parseJSON.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/ajax/parseJSON.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/deferred.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/deferred.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/deferred.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/traversing/findFilter.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/traversing/findFilter.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/traversing/findFilter.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/var/cssExpand.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/var/cssExpand.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/var/cssExpand.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/curCSS.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/curCSS.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/curCSS.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/always-visible.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/always-visible.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/always-visible.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/bower.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/bower.json	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower.json	(revision )
+@@ -30,7 +30,7 @@
+     "fastclick": "~1.*",
+     "font-awesome": "~4.3.0",
+     "ngDialog": "~0.4.0",
+-    "perfect-scrollbar": "~0.6.5",
++    "perfect-scrollbar": "0.5.9",
+     "underscore": "~1.8.3",
+     "video.js": "~4.12.5",
+     "angular-slick": "~0.2.1",
+Index: public/bower_components/jquery/src/effects/animatedSelector.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/effects/animatedSelector.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/effects/animatedSelector.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/class2type.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/class2type.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/class2type.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/manipulation.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/manipulation.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/manipulation.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/event/ajax.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/event/ajax.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/event/ajax.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/selector-native.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/selector-native.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/selector-native.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/angular-perfect-scrollbar/bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/angular-perfect-scrollbar/bower.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/angular-perfect-scrollbar/bower.json	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/attributes/attr.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/attributes/attr.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/attributes/attr.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/outro.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/outro.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/outro.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/min/perfect-scrollbar.min.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/min/perfect-scrollbar.min.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/min/perfect-scrollbar.min.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/selector.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/selector.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/selector.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/manipulation/var/rcheckableType.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/manipulation/var/rcheckableType.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/manipulation/var/rcheckableType.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/data/Data.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/data/Data.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/data/Data.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/addGetHookIf.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/addGetHookIf.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/addGetHookIf.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/support.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/support.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/support.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/effects/Tween.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/effects/Tween.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/effects/Tween.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/rnotwhite.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/rnotwhite.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/rnotwhite.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/angular-perfect-scrollbar/gruntfile.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/angular-perfect-scrollbar/gruntfile.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/angular-perfect-scrollbar/gruntfile.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/strundefined.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/strundefined.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/strundefined.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/attributes/val.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/attributes/val.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/attributes/val.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/var/getStyles.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/var/getStyles.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/var/getStyles.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/scrollbars-with-margin.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/scrollbars-with-margin.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/scrollbars-with-margin.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/ajax/jsonp.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/ajax/jsonp.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/ajax/jsonp.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/ajax/xhr.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/ajax/xhr.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/ajax/xhr.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/queue/delay.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/queue/delay.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/queue/delay.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/serialize.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/serialize.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/serialize.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/jquery.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/jquery.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/jquery.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/data/var/data_user.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/data/var/data_user.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/data/var/data_user.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/callbacks.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/callbacks.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/callbacks.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/defaultDisplay.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/defaultDisplay.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/defaultDisplay.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/var/isHidden.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/var/isHidden.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/var/isHidden.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/src/perfect-scrollbar.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/src/perfect-scrollbar.css	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/src/perfect-scrollbar.css	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/.bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/.bower.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/.bower.json	(revision )
+@@ -33,6 +33,6 @@
+     "commit": "7751e69b615c6eca6f783a81e292a55725af6b85"
+   },
+   "_source": "git://github.com/jquery/jquery.git",
+-  "_target": ">=1.10",
++  "_target": ">=1.7",
+   "_originalSource": "jquery"
+ }
+\ No newline at end of file
+Index: public/bower_components/jquery/src/ajax.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/ajax.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/ajax.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/toString.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/toString.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/toString.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/traversing.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/traversing.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/traversing.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/min/perfect-scrollbar.min.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/min/perfect-scrollbar.min.css	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/min/perfect-scrollbar.min.css	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/slice.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/slice.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/slice.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/src/perfect-scrollbar.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/src/perfect-scrollbar.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/src/perfect-scrollbar.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/swap.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/swap.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/swap.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/push.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/push.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/push.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/exports/amd.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/exports/amd.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/exports/amd.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/rtl.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/rtl.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/rtl.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/dist/jquery.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/dist/jquery.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/dist/jquery.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/hiddenVisibleSelectors.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/hiddenVisibleSelectors.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/hiddenVisibleSelectors.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/css/support.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/css/support.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/css/support.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/effects.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/effects.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/effects.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/options-wheelSpeed.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/options-wheelSpeed.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/options-wheelSpeed.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/attributes.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/attributes.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/attributes.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/manipulation/_evalUrl.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/manipulation/_evalUrl.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/manipulation/_evalUrl.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/options-useBothWheelAxes.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/options-useBothWheelAxes.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/options-useBothWheelAxes.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/var/hasOwn.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/hasOwn.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/hasOwn.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/examples/options-suppressScrollAxis.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/examples/options-suppressScrollAxis.html	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/examples/options-suppressScrollAxis.html	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/dist/jquery.min.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/dist/jquery.min.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/dist/jquery.min.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/data/accepts.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/data/accepts.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/data/accepts.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/README.md	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/README.md	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/event/support.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/event/support.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/event/support.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/Gruntfile.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/Gruntfile.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/Gruntfile.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/core/init.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/core/init.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/core/init.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/ajax/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/ajax/script.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/ajax/script.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/attributes/classes.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/attributes/classes.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/attributes/classes.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/.bower.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/.bower.json	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/.bower.json	(revision )
+@@ -26,6 +26,6 @@
+     "commit": "f6af3e071110bc09294fb950959051a079897582"
+   },
+   "_source": "git://github.com/noraesae/perfect-scrollbar-bower.git",
+-  "_target": "~0.5.1",
++  "_target": "0.5.9",
+   "_originalSource": "perfect-scrollbar"
+ }
+\ No newline at end of file
+Index: public/bower_components/jquery/src/var/pnum.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/var/pnum.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/var/pnum.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/core/ready.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/core/ready.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/core/ready.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/angular-perfect-scrollbar/src/angular-perfect-scrollbar.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/angular-perfect-scrollbar/src/angular-perfect-scrollbar.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/angular-perfect-scrollbar/src/angular-perfect-scrollbar.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/traversing/var/rneedsContext.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/traversing/var/rneedsContext.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/traversing/var/rneedsContext.js	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/sizzle/dist/sizzle.min.map
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/sizzle/dist/sizzle.min.map	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/sizzle/dist/sizzle.min.map	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/perfect-scrollbar/LICENSE
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/perfect-scrollbar/LICENSE	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/perfect-scrollbar/LICENSE	(revision )
+@@ -1,0 +1,0 @@
+Index: public/bower_components/jquery/src/ajax/var/rquery.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/bower_components/jquery/src/ajax/var/rquery.js	(revision eda121ad00102793cd0eab52c38ffd2bad087dc9)
++++ public/bower_components/jquery/src/ajax/var/rquery.js	(revision )
+@@ -1,0 +1,0 @@

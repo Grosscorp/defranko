@@ -1,0 +1,38 @@
+Index: public/assets/.htaccess
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/assets/.htaccess	(revision 2f0cc016be56b3b085c5094064dac9439636f2d6)
++++ public/assets/.htaccess	(revision 2f0cc016be56b3b085c5094064dac9439636f2d6)
+@@ -0,0 +1,9 @@
++Options -Indexes
++
++RewriteEngine On
++RewriteBase /assets
++
++RewriteRule ^([^/]+)/([a-z0-9])([a-z0-9-])([a-z0-9-])([^/]+)/(.*)\.(.{2,4}) $1/$2/$3/$4/$2$3$4$5/$6\.$7 [L]
++
++DirectoryIndex -
++AddType text/plain .php
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision 1fa7e0cef57d4707ee9c0be5090d904d07d09d88)
++++ .gitignore	(revision a13bcfe8996e3918d165956c5fd75d2542b14117)
+@@ -4,11 +4,11 @@
+ .idea/*
+ *.sh
+ _ide_helper.php
+-/public/assets
+ .DS_Store
+ .sass-cache
+ .phpstorm.meta.php
++composer.lock
+ 
+ public/assets/*
+ !/public/assets/.htaccess
+-composer.lock
++

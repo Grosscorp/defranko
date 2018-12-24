@@ -1,0 +1,87 @@
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	color: #222222;
+}
+
+p {
+	margin: 0;
+}
+
+.static-p {
+	margin: 10px 0;
+	color: #222222;
+	font-size: em(16);
+
+	@media (min-width: $screen-tablet) {
+		font-size: em(25);
+	}
+}
+
+h1 {
+	margin: 10px 0;
+}
+
+h2, h3, h4 {
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+@media (min-width: $screen-phone) {
+	h1, h2 {
+		font-size: em(24);
+	}
+
+	h4 {
+		font-size: em(16);
+	}
+}
+
+@media (min-width: $screen-tablet) {
+	h1, h2 {
+		font-size: em(34);
+	}
+
+	h4 {
+		font-size: em(20);
+	}
+}
+
+@media (min-width: $screen-desktop) {
+	h1, h2 {
+		font-size: em(50);
+	}
+
+	h4 {
+		font-size: em(25);
+	}
+}
+
+
+.typography-li {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none outside none;
+
+		li {
+			position: relative;
+			padding-left: 15px;
+			&:before {
+				content: '';
+
+				position: absolute;
+				left: 0;
+				top: 6px;
+				width: 8px;
+				height: 8px;
+				background-color: #ef4431;
+			}
+		}
+	}
+}

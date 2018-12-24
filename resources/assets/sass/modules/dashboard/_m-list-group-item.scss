@@ -1,0 +1,5 @@
+.list-group-item {
+	@include display(flex);
+	@include justify-content(space-between);
+	@include align-items(center);
+}

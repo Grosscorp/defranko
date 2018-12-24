@@ -1,0 +1,95 @@
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	color: #222222;
+}
+
+h1 {
+	margin: 10px 0;
+}
+
+h4, h3, h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+@media (min-width: $screen-phone) {
+	h1, h2 {
+		font-size: em(24);
+	}
+
+	h4 {
+		font-size: em(16);
+	}
+}
+
+@media (min-width: $screen-tablet) {
+	h1, h2 {
+		font-size: em(34);
+	}
+
+	h4 {
+		font-size: em(20);
+	}
+}
+
+@media (min-width: $screen-desktop) {
+	h1, h2 {
+		font-size: em(50);
+	}
+
+	h4 {
+		font-size: em(25);
+	}
+}
+
+.typography-24 {
+	p {
+		font-size: em(16);
+		font-weight: 600;
+	}
+	span {
+		font-size: em(14);
+		p {
+			font-size: inherit;
+		}
+	}
+
+	@media (min-width: $screen-phone) {
+		p {
+			font-size: em(24);
+		}
+		span {
+			font-size: em(16);
+		}
+	}
+}
+
+
+.typography-li {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none outside none;
+
+		li {
+			position: relative;
+			padding-left: 15px;
+			&:before {
+				content: '';
+
+				position: absolute;
+				left: 0;
+				top: 6px;
+				width: 8px;
+				height: 8px;
+				background-color: #ef4431;
+			}
+		}
+	}
+}

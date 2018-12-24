@@ -1,0 +1,17 @@
+@mixin badges {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	color: #fff;
+	text-align: center;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 600;
+	background-color: #da5050;
+	border-radius : 50%;
+
+	@include display(inline-flex);
+	@include align-items(center);
+	@include justify-content(center);
+
+}

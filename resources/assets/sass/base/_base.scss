@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+* {
+	outline: none!important;
+	-webkit-overflow-scrolling:touch;
+}
+
+select::-ms-expand { /* for IE 11 */
+	display: none;
+}
+
+select,
+#{$all-text-inputs} {
+	@include appearance(none);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+// Reset fonts for relevant elements
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+// Button
+button, input[type=button], input[type=reset], input[type=submit] {
+	@include appearance(button);
+	cursor: pointer;
+}
+
+
+//Chrome yellow
+#{$all-text-inputs} {
+	box-sizing: border-box;
+
+	&:-webkit-autofill {
+		-webkit-transition-delay: 9999s!important;
+		-webkit-transition: color 9999s ease-out, background-color 9999s ease-out!important;
+		&:hover,
+		&:focus,
+		&:active {
+			-webkit-transition-delay: 9999s!important;
+			-webkit-transition: color 9999s ease-out, background-color 9999s ease-out!important;
+		}
+	}
+}

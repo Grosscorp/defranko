@@ -1,0 +1,32 @@
+<div ng-repeat="(fieldKey,field) in fields[lang]">
+	<div ng-if="field.type == 'textbox'">
+		<div class="form-group">
+			<label for="{{:: fieldKey }}">{{ ::field.label }}:</label>
+			<input class="form-control" type="text" ng-model="field.value" name="{{:: fieldKey }}" id="{{:: fieldKey }}"
+				   placeholder=""
+				 ng-class="{'datetimePicker' : field.datetime, 'timePicker' : field.time, 'datePicker': field.date}"/>
+			<div ng-include src="'/app/directives/form/errors.html'"></div>
+		</div>
+	</div>
+
+	<div ng-if="field.type == 'textarea'">
+		<div class="form-group form-textarea">
+			<label for="{{ fieldKey }}">{{ field.label }}</label>
+			<div>
+				<textarea ng-if="(field.editor | toBoolean) === false" ng-model="field.value"
+						  class="form-control" rows="8"
+						  name="{{ fieldKey }}" id="{{ fieldKey }}"></textarea>
+
+				<div id="summernote" ng-if="(field.editor | toBoolean) !== false">
+					<summernote
+							ng-model="field.value"
+							config="options">
+					</summernote>
+				</div>
+
+
+				<div ng-include src="'/app/directives/form/errors.html'"></div>
+			</div>
+		</div>
+	</div>
+</div>

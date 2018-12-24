@@ -1,0 +1,54 @@
+.form-error-title {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid red;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0.1);
+
+	@media (max-width: $screen-sm) {
+		margin: 20px 0px;
+	}
+}
+
+.form-errors {
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: 4px 10px;
+	list-style: none;
+	text-align: left;
+	color: #e05a59;
+	font-size: 13px;
+	line-height: 1.2em;
+	background-color: rgba(255, 0, 0, 0.1);
+	border-radius: 0 0 3px 3px;
+	font-weight: 400;
+
+	li {
+		ul {
+			margin: 6px 0;
+			list-style: inside none disc;
+
+			li {
+				margin-left: 14px;
+			}
+		}
+	}
+
+	label {
+		font-weight: 300;
+		padding: 0;
+		color: darken(#e05a59, 5%) !important;
+		margin: 0;
+
+		&:before {
+			content: '';
+			display: none;
+		}
+	}
+
+	.skip-email {
+		label {
+			font-size: 11px;
+		}
+	}
+}

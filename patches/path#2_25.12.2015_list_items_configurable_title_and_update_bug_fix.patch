@@ -1,0 +1,145 @@
+Index: public/app/modules/dashboard/pages/pages.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/app/modules/dashboard/pages/pages.js	(revision 8ca8dc4a621b78176d42ad0302e8db999c34d9dd)
++++ public/app/modules/dashboard/pages/pages.js	(revision )
+@@ -181,14 +181,28 @@
+ 		};
+ 	}
+ 
+-	Pages_list.$inject = ['$scope', 'items', '$stateParams', 'HttpService', '$state', 'BreadCrumbsService'];
+-	function Pages_list($scope, items, $stateParams, HttpService, $state, BreadCrumbsService)
++	Pages_list.$inject = ['$scope', 'items', '$stateParams', 'HttpService', '$state', 'BreadCrumbsService', 'BACKEND_CFG'];
++	function Pages_list($scope, items, $stateParams, HttpService, $state, BreadCrumbsService, BACKEND_CFG)
+ 	{
+ 		//BreadCrumbsService.addCrumb('Users', 'users.list');
+ 		BreadCrumbsService.addCrumb('List items');
+ 		$scope.stateParams = $stateParams;
+ 
++		$scope.custom_list_title = false;
++
++		if(typeof BACKEND_CFG.pages[$stateParams.section].list_title !== 'undefined') {
++			$scope.custom_list_title = BACKEND_CFG.pages[$stateParams.section].list_title;
++		}
+ 		$scope.list = items.data.list;
++
++		$scope.generateTitle = function(item) {
++			if($scope.custom_list_title) {
++				var value = _.findWhere(item.fields, {'key': $scope.custom_list_title}).texts[0].value;
++				return value ? value : 'Item #' + item.id;
++			} else {
++				return 'Item #' + item.id;
++			}
++		};
+ 
+ 		//todo parse from config if enable Delete functionality
+ 		$scope.removeItem = function(id) {
+Index: app/Repositories/LandingPageFieldRepository.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/Repositories/LandingPageFieldRepository.php	(revision 8ca8dc4a621b78176d42ad0302e8db999c34d9dd)
++++ app/Repositories/LandingPageFieldRepository.php	(revision )
+@@ -87,6 +87,10 @@
+ 				//get token and other stuff from config
+ 				$config = \Config::get('pages.' .$page->token . '.fields');
+ 
++				if(!$config) {
++					$config = \Config::get('pages.' .$page->section . '.fields');
++				}
++
+ 				if($config) {
+ 					//create field
+ 					$fieldConfig = $config[$key];
+@@ -104,20 +108,21 @@
+ 
+ 			}
+ 
++			if($field) {
+-			 //update field
+-			$fieldText = LandingPageFieldsText::whereRaw('field_id = ? AND lang = ?', [$field->id, $lang])->first();
++				//update field
++				$fieldText = LandingPageFieldsText::whereRaw('field_id = ? AND lang = ?', [$field->id, $lang])->first();
+ 
+-			if(!$fieldText) { //create field texts
+-				$fieldText = LandingPageFieldsText::create([
+-					'field_id' => $field->id,
+-					'lang' => $lang,
+-					'value' => $val
+-				]);
+-			}
++				if(!$fieldText) { //create field texts
++					$fieldText = LandingPageFieldsText::create([
++							'field_id' => $field->id,
++							'lang' => $lang,
++							'value' => $val
++					]);
++				}
+ 
+-			$fieldText->value = $val;
+-			$fieldText->save();
++				$fieldText->value = $val;
++				$fieldText->save();
+-
++			}
+ 		}
+ 
+ 	}
+Index: public/app/modules/dashboard/pages/list.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- public/app/modules/dashboard/pages/list.html	(revision 8ca8dc4a621b78176d42ad0302e8db999c34d9dd)
++++ public/app/modules/dashboard/pages/list.html	(revision )
+@@ -15,7 +15,7 @@
+ 					<div class="col-xs-24 col-sm-24" ng-repeat="item in list">
+ 						<div class="list-group-item">
+ 							<div>
+-								<span class="list-group-item-heading">Item #{{ item.id }}</span>
++								<span class="list-group-item-heading" ng-bind-html="generateTitle(item)"></span>
+ 							</div>
+ 
+ 							<div>
+Index: config/pages.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- config/pages.php	(revision 8ca8dc4a621b78176d42ad0302e8db999c34d9dd)
++++ config/pages.php	(revision )
+@@ -2,6 +2,7 @@
+ 
+ //'fields' required options : type, label. Other are optional: rules, editor, position
+ //'gallery' required options : fileType. Todo max quantity of files
++//'list_title' => 'title', Used for list items title
+ 
+ $seoFields = [
+ 	'seo_description' => [
+@@ -92,6 +93,7 @@
+ 			'fileType' => \App\Repositories\FileRepository::FILE_ABOUT_PARTNER
+ 		],
+ 		'isMultiple' => true,
++		'list_title' => 'name',
+ 		'parent'     => 'about'
+ 	],
+ 
+@@ -149,6 +151,7 @@
+ 			'fileType' => \App\Repositories\FileRepository::FILE_COOKING_TOUR_IMAGE,
+ 		],
+ 		'slug'       => 'title',
++		'list_title' => 'title',
+ 		'isMultiple' => true,
+ 		'parent'     => 'cooking'
+ 	],
+@@ -198,6 +201,7 @@
+ 			'fileType' => \App\Repositories\FileRepository::FILE_SHOW_IMAGE,
+ 		],
+ 		'slug'       => 'title',
++		'list_title' => 'title',
+ 		'isMultiple' => true,
+ 		'parent'     => 'shows'
+ 	],

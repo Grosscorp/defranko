@@ -1,0 +1,36 @@
+{
+  "vendor_js": [
+    "public/bower_components/jquery/dist/jquery.min.js",
+    "public/bower_components/underscore/underscore-min.js",
+    "public/bower_components/modernizr/modernizr.js",
+    "public/bower_components/angular/angular.js",
+    "public/bower_components/angular-ui-router/release/angular-ui-router.min.js",
+    "public/bower_components/angular-sanitize/angular-sanitize.min.js",
+    "public/bower_components/ngDialog/js/ngDialog.min.js",
+    "public/bower_components/angular-animate/angular-animate.min.js",
+    "public/bower_components/angular-file-upload/angular-file-upload.min.js",
+    "public/bower_components/angular-loading-bar/build/loading-bar.min.js",
+    "public/bower_components/slick-carousel/slick/slick.js",
+    "public/bower_components/angular-slick/dist/slick.min.js",
+    "public/bower_components/angular-notification/angular-notification.min.js",
+    "public/bower_components/angular-ui-notification/dist/angular-ui-notification.min.js"
+  ],
+  "js": [
+    "public/app/components/utils.js",
+    "public/app/components/notify.js",
+    "public/app/services/services.js",
+    "public/app/filters/common.js",
+    "public/app/modules/main/auth/auth.js",
+    "public/app/directives/form/form.js",
+    "public/app/directives/main/main.js",
+    "public/app/public.js"
+  ],
+  "libs_css": [
+    "public/bower_components/ngDialog/css/ngDialog.min.css",
+    "public/bower_components/ngDialog/css/ngDialog-theme-default.min.css",
+    "public/bower_components/angular-loading-bar/build/loading-bar.min.css",
+    "public/bower_components/slick-carousel/slick/slick.css",
+    "public/bower_components/angular-ui-notification/dist/angular-ui-notification.min.css",
+    "public/css/public.css"
+  ]
+}

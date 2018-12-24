@@ -1,0 +1,2 @@
+1) Edit database/seeds/ClientSeeder.php with client information and run
+php artisan db:seed --class=ClientSeeder

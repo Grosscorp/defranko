@@ -1,0 +1,67 @@
+$bkg : '#fff';
+
+@mixin gradient-triangle($half-width, $height, $color-a, $color-b, $direction){
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(-40deg,$color-a, $color-b);
+	background: -webkit-linear-gradient(-40deg,$color-a, $color-b);
+	background: -moz-linear-gradient(-40deg,$color-a, $color-b);
+	width: 2*$half-width;
+	height: $height;
+	&:before, &:after{
+		position: absolute;
+		content:'';
+	}
+	@if $direction=="up"{
+		&:before, &:after{
+			border-left:$half-width solid transparent;
+			border-right: $half-width solid transparent;
+			border-top: $height solid $bkg;
+		}
+		&:before{
+			margin-left: $half-width * -1;
+		}
+		&:after{
+			margin-left: $half-width;
+		}
+	}
+	@else if $direction=="down"{
+		&:before, &:after{
+			border-left:$half-width solid transparent;
+			border-right: $half-width solid transparent;
+			border-bottom: $height solid $bkg;
+		}
+		&:before{
+			margin-left: $half-width * -1;
+		}
+		&:after{
+			margin-left: $half-width;
+		}
+	}
+	@else if $direction=="left"{
+		&:before, &:after{
+			border-top:$height/2 solid transparent;
+			border-bottom: $height/2 solid transparent;
+			border-left: $half-width*2 solid $bkg;
+		}
+		&:before{
+			margin-top: ($height/2) * -1;
+		}
+		&:after{
+			margin-top: $height/2;
+		}
+	}
+	@else if $direction=="right"{
+		&:before, &:after{
+			border-top:$height/2 solid transparent;
+			border-bottom: $height/2 solid transparent;
+			border-right: $half-width*2 solid $bkg;
+		}
+		&:before{
+			margin-top: ($height/2) * -1;
+		}
+		&:after{
+			margin-top: $height/2;
+		}
+	}
+}

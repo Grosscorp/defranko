@@ -1,0 +1,25 @@
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	// IE8 filter
+	$opacity-ie: ($opacity * 100);
+	filter: alpha(opacity=$opacity-ie);
+}
+
+@mixin box-shadow($shadow...) {
+	-webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+	box-shadow: $shadow;
+}
+
+// Box sizing
+@mixin box-sizing($boxmodel) {
+	-webkit-box-sizing: $boxmodel;
+	-moz-box-sizing: $boxmodel;
+	box-sizing: $boxmodel;
+}

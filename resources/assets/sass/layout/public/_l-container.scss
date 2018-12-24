@@ -1,0 +1,111 @@
+/*
+	Using prefix .l-*
+*/
+
+.page-container-wrapper {
+	width: 100%;
+	min-height: calc(100% - 114px);
+	position: relative;
+
+
+	.content {
+		min-height: 100%;
+		z-index: 10;
+
+		@include transition(all 0.3s ease 0s);
+	}
+
+	.item--partials {
+		padding-top: 3%;
+
+		> .row {
+			padding-top: 3%;
+			padding-bottom: 2%;
+		}
+
+
+		.row-contact {
+			padding-top: 4%;
+			padding-bottom: 2%;
+
+			.contact-block {
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+		}
+	}
+
+	.cd-background-wrapper {
+		height: 840px;
+
+		//@include display(flex);
+
+		position: relative;
+		overflow: hidden;
+
+
+		.no-touch & {
+			@include perspective(4000px);
+		}
+
+		&::before {
+			/* never visible - this is used in jQuery to check the device type */
+			content: 'web';
+			display: none;
+		}
+
+		.touch &::before {
+			/* never visible - this is used in jQuery to check the device type */
+			content: 'mobile';
+		}
+
+		@media (max-width: $screen-xs-max) {
+			height: 740px;
+		}
+
+		@media (max-width: $screen-phone) {
+			height: 540px;
+		}
+
+	}
+
+	.cd-floating-background {
+		.img {
+			position: absolute;
+			opacity: 0.3;
+			width: 100%;
+			height: 840px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+
+			@media (max-width: $screen-xs-max) {
+				height: 740px;
+			}
+
+			@media (max-width: $screen-phone) {
+				height: 540px;
+			}
+		}
+
+		.no-touch & {
+			top: 0;
+			left: 0;
+			@include transform-style(preserve-3d);
+			@include transform(translateZ(0));
+
+			&.is-absolute {
+				position: absolute;
+			}
+
+			.img:first-child {
+				@include transform(translateZ(50px));
+			}
+		}
+
+		.no-touch.no-preserve-3d & {
+			/* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
+			position: relative;
+		}
+	}
+}

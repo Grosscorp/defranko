@@ -1,0 +1,14 @@
+.breadcrumb {
+	span.active {
+		font-weight: 600;
+		color: #0090d9;
+	}
+
+	a {
+		cursor: pointer;
+	}
+
+	a, span {
+		font-size: 11px!important;
+	}
+}
